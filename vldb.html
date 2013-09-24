@@ -27,7 +27,7 @@
 	table {float:left; margin-right: 20px; }
 	p {font-size: 12pt; width: 700px; margin: 15px; margin-bottom: 3ex; font-family: open sans;}
 	h1 {margin-top: 30px; font-family: open sans;}
-  h2 { color: rgb(151, 158, 170); font-size: 22pt; }
+  h2 { color: rgb(151, 158, 170); font-size: 22pt; margin-top: 1.5em;}
 	.count {font-size: 10pt;}
 	table.topk {margin: 20px; width: 120px}
 	.year {font-weight: bold;}
@@ -55,7 +55,7 @@
 	<h1>Trends across all time</h1>
     <p>
         Thees trends are based on the keywords across all
-        years of VLDB publications
+        years (1975 - now) of VLDB publications
     </p>
     <h2>Most Stable</h2>
     <p>
@@ -129,7 +129,8 @@
 
   <h2>What's not?</h2>
     <p>
-    On the long time scale, <b>database, models and relational</b> as keywords are dying!  We can see that <b>object oriented, rules, activity</b> came 
+    On the long time scale, <b>database, models and relational</b> as keywords are dying!  
+    <p>We can see that <b>object oriented, rules, activity</b> came 
     and went.  We always talk about <b>XML</b> being dead, at it sure looks that way on paper, along with <b>streams, services, and caching</b>.
     </p>
     <div class="row"><div class='span3'><div class='row trend' style='height: 30px'>
@@ -256,14 +257,6 @@
 	<tr><td class='year' colspan=2>2006</td></tr>
     <tr><td class='word'>queries</td><td class='count'>37</td></tr><tr><td class='word'>data</td><td class='count'>26</td></tr><tr><td class='word'>database</td><td class='count'>16</td></tr><tr><td class='word'>xml</td><td class='count'>16</td></tr><tr><td class='word'>efficient</td><td class='count'>15</td></tr><tr><td class='word'>optimal</td><td class='count'>11</td></tr><tr><td class='word'>systems</td><td class='count'>11</td></tr><tr><td class='word'>index</td><td class='count'>10</td></tr><tr><td class='word'>processing</td><td class='count'>10</td></tr><tr><td class='word'>based</td><td class='count'>9</td></tr>
    </table>
-	<div style='clear:both'><table class='topk'>
-	<tr><td class='year' colspan=2>2005</td></tr>
-    <tr><td class='word'>queries</td><td class='count'>37</td></tr><tr><td class='word'>data</td><td class='count'>25</td></tr><tr><td class='word'>database</td><td class='count'>25</td></tr><tr><td class='word'>xml</td><td class='count'>21</td></tr><tr><td class='word'>efficient</td><td class='count'>18</td></tr><tr><td class='word'>systems</td><td class='count'>18</td></tr><tr><td class='word'>based</td><td class='count'>14</td></tr><tr><td class='word'>streams</td><td class='count'>12</td></tr><tr><td class='word'>pattern</td><td class='count'>10</td></tr><tr><td class='word'>management</td><td class='count'>8</td></tr>
-   </table>
-<table class='topk'>
-	<tr><td class='year' colspan=2>2004</td></tr>
-    <tr><td class='word'>data</td><td class='count'>41</td></tr><tr><td class='word'>queries</td><td class='count'>32</td></tr><tr><td class='word'>database</td><td class='count'>30</td></tr><tr><td class='word'>streams</td><td class='count'>20</td></tr><tr><td class='word'>systems</td><td class='count'>20</td></tr><tr><td class='word'>xml</td><td class='count'>18</td></tr><tr><td class='word'>management</td><td class='count'>15</td></tr><tr><td class='word'>based</td><td class='count'>14</td></tr><tr><td class='word'>processing</td><td class='count'>10</td></tr><tr><td class='word'>optimal</td><td class='count'>9</td></tr>
-   </table>
 	<div style='clear:both'>
 	
 </div>
@@ -274,19 +267,24 @@
 <p>
 The topics I've decided to work on look like a mixed bag.  <b>Provenance or lineage</b>
 seems to be down, but I believe in second chances.  Good to know
-that <b>data mining</b> is a stable topic!
+that <b>data analysis and workload driven research</b> 
+is a stable and increasingly topic!
 </p>
 `
 <div style="">
   <div class='span3'><div class='row trend' style='height: 30px'>
 <div class='span1 word'>lineage</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,3,2,2,1,1,1,1</span></div></div></div><div class='span3'><div class='row trend' style='height: 30px'>
+<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,3,2,2,1,1,1,1</span></div></div><div class='row trend' style='height: 30px'>
 <div class='span1 word'>visual</div>
 <div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,2,1,2,0,0,0,2,0,1,1,0,1,0,1,1,3,2,0,1</span></div></div></div><div class='span3'><div class='row trend' style='height: 30px'>
 <div class='span1 word'>analysi</div>
-<div class='span2' style='height: 30px'><span class='spark'>3,0,2,3,0,2,2,0,1,2,1,0,1,1,0,1,1,0,2,1,0,4,0,3,0,1,0,2,2,1,0,3,3,4,7,5,5,3,2</span></div></div></div><div class='span3'><div class='row trend' style='height: 30px'>
+<div class='span2' style='height: 30px'><span class='spark'>3,0,2,3,0,2,2,0,1,2,1,0,1,1,0,1,1,0,2,1,0,4,0,3,0,1,0,2,2,1,0,3,3,4,7,5,5,3,2</span></div></div><div class='row trend' style='height: 30px'>
 <div class='span1 word'>bigdata</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,2</span></div></div></div>
+<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,2</span></div></div></div><div class='span3'><div class='row trend' style='height: 30px'>
+<div class='span1 word'>crowd</div>
+<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,5</span></div></div><div class='row trend' style='height: 30px'>
+<div class='span1 word'>workload</div>
+<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,2,1,0,0,2,0,4,3,4,0,2</span></div></div></div>
 </div>
 
 

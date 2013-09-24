@@ -177,9 +177,9 @@ topk = """<table class='topk'>
 """    
 topkrow = "<tr><td class='word'>%s</td><td class='count'>%s</td></tr>"
 
-years = [r for r, in db.execute('select distinct year from counts order by year desc limit 10')]
+years = [r for r, in db.execute('select distinct year from counts order by year desc limit 8')]
 html3 = []
-for block in block_iter(years, 3):
+for block in block_iter(years, 2):
     for year in block:
         q = "select word, sum(c) as s from counts where year = ? group by word order by s desc limit 10"
         cur = db.execute(q, (year,))
@@ -191,7 +191,7 @@ for block in block_iter(years, 3):
 html3 = ''.join(html3)
 
 
-mywords = canonicalize(['lineage', 'visualization', 'analysis', 'bigdata'])
+mywords = canonicalize(['lineage', 'visualization', 'analysis', 'bigdata', 'crowd', 'workload'])
 html4 = render_words(mywords, 4)
 
 template = file('template.html', 'r').read()
