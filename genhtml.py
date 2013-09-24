@@ -3,9 +3,52 @@ import sqlite3
 from util import Canonicalizer
 
 
+class MyTrendDown(object):
+    def __init__(self):
+      self.buffer = []
+
+    def step(self, value):
+      self.buffer.append(value);
+
+    def finalize(self):
+      if not self.buffer:
+        return -1
+      avg = sum(self.buffer) / float(len(self.buffer))
+      avg = max(self.buffer)
+      diffs = []
+      smooths = []
+      for i in xrange(len(self.buffer)-4):
+        smooths.append(sum(self.buffer[i:i+4]) / 4.)
+      for i in xrange(len(smooths)-1):
+        diffs.append(smooths[i] - smooths[i+1])
+      avgdiff = sum(diffs) / float(len(diffs))
+      return avg * avgdiff;
+
+class MyTrendUp(MyTrendDown):
+    def __init__(self):
+      self.buffer = []
+
+    def step(self, value):
+      self.buffer.append(value);
+
+    def finalize(self):
+      if not self.buffer:
+        return -1
+      avg = sum(self.buffer) / float(len(self.buffer))
+      diffs = []
+      for i in xrange(len(self.buffer)-1):
+        diffs.append(self.buffer[i+1] - self.buffer[i])
+      avgdiff = sum(diffs) / float(len(diffs))
+      return avg * avgdiff;
+
+
+
+
 canonicalize = Canonicalizer()
 db = sqlite3.connect('stats.db')
 db.create_function("log", 1, math.log)
+db.create_aggregate("tup", 1, MyTrendUp)
+db.create_aggregate("tdown", 1, MyTrendDown)
 
 def block_iter(l, nblocks=2):
     """
@@ -75,9 +118,6 @@ def render_words(words, blocksize=2):
   return html
 
 
-
-
-
 maxc = 0
 
 
@@ -85,16 +125,16 @@ maxc = 0
 q = """select counts.word, (avg(c))/(1+(1+max(c))-(min(c)+1))  as r
        from counts 
        group by counts.word
-       order by r desc limit 9
+       order by r desc limit 12
     """
 words = [r[0] for r in db.execute(q)]
 stable = render_words(words, 3)
 
 
 
-q = """select counts.word, max(c)/(min(c)+1) as r
+q = """select counts.word, tup(c) as r
        from counts 
-       where (select year from counts as c2 where c2.word = counts.word order by c desc, year asc limit 1)  > (select year from counts as c3 where c3.word = counts.word order by c asc, year desc limit 1) and (select year from counts as c2 where c2.word = counts.word order by c desc, year asc limit 1) > 2008
+       where year > 1975
        group by counts.word
        order by r desc limit 12
     """
@@ -102,21 +142,25 @@ words = [r[0] for r in db.execute(q)]
 hot = render_words(words, 3)
 
 
-
-q = """select counts.word, max(c)/(min(c)+1) as r
-       from counts 
-       where (select year from counts as c2 where c2.word = counts.word order by c desc, year asc limit 1) < (select year from counts as c3 where c3.word = counts.word order by c asc, year asc limit 1)
-       group by counts.word
-       order by r desc limit 12
-    """
-words = [r[0] for r in db.execute(q)]
-cold = render_words(words, 3)
+def dying_from(year, limit, exclude=[]):
+  q = """select counts.word, tdown(c) as r
+         from counts 
+         where year > %s and word not in (%s)
+         group by counts.word
+         order by r desc limit %s
+      """ % (year, ','.join(['?']*len(exclude)), limit)
+  return [r[0] for r in db.execute(q, tuple(exclude))]
+words = dying_from(1980, 3, words)
+words += dying_from(1990, 3, words)
+words += dying_from(1995, 3, words)
+words += dying_from(2000, 3, words)
+cold = render_words(words[:12], 3)
 
 
 
 
 ratios = []
-for year in range(2010, 2013):
+for year in range(2007, 2013):
   ratios += best_ratio(year, [], 10)
 ratios.sort(key=lambda p: p[1], reverse=True)
 words = []
@@ -133,7 +177,7 @@ topk = """<table class='topk'>
 """    
 topkrow = "<tr><td class='word'>%s</td><td class='count'>%s</td></tr>"
 
-years = [r for r, in db.execute('select distinct year from counts order by year desc')]
+years = [r for r, in db.execute('select distinct year from counts order by year desc limit 10')]
 html3 = []
 for block in block_iter(years, 3):
     for year in block:
@@ -147,7 +191,7 @@ for block in block_iter(years, 3):
 html3 = ''.join(html3)
 
 
-mywords = canonicalize(['provenance', 'visualization', 'mining', 'bigdata'])
+mywords = canonicalize(['lineage', 'visualization', 'analysis', 'bigdata'])
 html4 = render_words(mywords, 4)
 
 template = file('template.html', 'r').read()

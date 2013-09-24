@@ -1,0 +1,69 @@
+Semantic Integration in Heterogeneous Databases Using Neural Networks.
+Providing Dynamic Security Control in a Federated Database.
+An Approach for Building Secure Database Federations.
+Optimization Algorithms for Exploiting the Parallelism-Communication Tradeoff in Pipelined Parallelism.
+Dalí: A High Performance Main Memory Storage Manager.
+Some Issues in Design of Distributed Deductive Databases.
+Towards Automated Performance Tuning for Complex Workloads.
+Fast, Randomized Join-Order Selection - Why Use Transformations?
+Query Optimization by Predicate Move-Around.
+Supporting Exceptions to Schema Consistency to Ease Schema Evolution in OODBMS.
+Bulk Loading into an OODB: A Performance Study.
+NAOS - Efficient and Modular Reactive Capabilities in an Object-Oriented Database System.
+Efficient and Effective Clustering Methods for Spatial Data Mining.
+Performance of Data-Parallel Spatial Operations.
+The Impact of Global Clustering on Spatial Database Systems.
+Indexing Multiple Sets.
+Fast Incremental Indexing for Full-Text Information Retrieval.
+The hcC-tree: An Efficient Index Structure for Object Oriented Databases.
+A Transaction Replication Scheme for a Replicated Database with Node Autonomy.
+A Top-Down Approach for Two Level Serializability.
+New Concurrency Control Algorithms for Accessing and Compacting B-Trees.
+OdeFS: A File System Interface to an Object-Oriented Database.
+Implementing Lazy Database Updates for an Object Database System.
+Access to Objects by Path Expressions and Rules.
+Towards Event-Driven Modelling for Database Design.
+GraphDB: Modeling and Querying Graphs in Databases.
+Qualified Answers That Reflect User Needs and Preferences.
+V-Trees - A Storage Method for Long Vector Data.
+On Index Selection Schemes for Nested Object Hierarchies.
+RP*: A Family of Order Preserving Scalable Distributed Data Structures.
+Including Group-By in Query Optimization.
+The GMAP: A Versatile Tool for Physical Data Independence.
+Memory-Contention Responsive Hash Joins.
+Database Graph Views: A Practical Model to Manage Persistent Graphs.
+Persistent Threads.
+Investigation of Algebraic Query Optimisation Techniques for Database Programming Languages.
+Dual-Buffering Strategies in Object Bases.
+2Q: A Low Overhead High Performance Buffer Management Replacement Algorithm.
+Maximizing Buffer and Disk Utilizations for News On-Demand.
+An Effective Deductive Object-Oriented Database Through Language Integration.
+An Algebraic Approach to Rule Analysis in Expert Database Systems.
+Fast Algorithms for Mining Association Rules in Large Databases.
+Hilbert R-tree: An Improved R-tree using Fractals.
+Cache Conscious Algorithms for Relational Query Processing.
+Join Index Hierarchies for Supporting Efficient Navigations in Object-Oriented Databases.
+Cumulative Updates.
+On Spatially Partitioned Temporal Join.
+Client-Server Paradise.
+Reasoning About Spatial Relationships in Picture Retrieval Systems.
+Content-Based Image Indexing.
+A Low-Cost Storage Server for Movie on Demand Databases.
+Composite Events for Active Databases: Semantics, Contexts and Detection.
+From Nested-Loop to Join Queries in OODB.
+Materialization: A Powerful and Ubiquitous Abstraction Pattern.
+A Requirement-Based Approach to Data Modeling and Re-Engineering.
+Experiments on Access to Digital Libraries: How can Images and Text be Used Together.
+Data Integration in the Large: The Challenge of Reuse.
+An Empirical Performance Study of the Ingres Search Accelerator for a Large Property Management Database System.
+Modelling and Querying Video Data.
+Data Compression Support in Databases.
+An Overview of Repository Technology.
+A Multidatabase System for Tracking and Retrieval of Financial Data.
+Building a Laboratory Information System Around a C++-Based Object-Oriented DBMS.
+Relating Distributed Objects.
+Integrating a Structured-Text Retrieval System with an Object-Oriented Database System.
+User Interfaces; Who Cares?
+Scientific Databases - State of the Art and Future Directions.
+PC Database Systems - Present and Future.
+Challenges for Global Information Systems.

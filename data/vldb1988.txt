@@ -1,0 +1,42 @@
+Scheduling Real-time Transactions: a Performance Evaluation.
+Distributed Concurrency Control Performance: A Study of Algorithms, Distribution, and Replication.
+Split-Transactions for Open-Ended Activities.
+Enforcing Inclusion Dependencies and Referencial Integrity.
+Closed World Databases Opened Through Null Values.
+Implementing Queries and Updates on Universal Scheme Interfaces.
+An Implementation for Nested Relational Databases.
+A Performance Study of Query Optimization Algorithms on a Database System Supporting Procedures.
+The Partial Normalized Storage Model of Nested Relations.
+Browsing Electronic Mail: Experiences Interfacing a Mail System to a DBMS.
+Towards a Spatial Query Language: User Interface Considerations.
+Management of Complex Objects as Dynamic Forms.
+Versions of Schema for Object-Oriented Databases.
+Temporal Relationships in Databases.
+A logical framework for temporal deductive databases.
+Dynamic Derivation of Personalized Views.
+Administration and Autonomy in a Replication-Transparent Distributed DBMS.
+Rapid Application Prototyping the PROQUEL Language.
+Implementing an Interpreter for Functional Rules in a Query Optimizer.
+Anatomy of a Mudular Multiple Query Optimizer.
+Selectivity Estimation and Query Optimization in Large Databases with Highly Skewed Distribution of Column Values.
+Towards a Real Horn Clause Language.
+Fixed-point semantics and the representation of algorithms on large data.
+Computing Facts in Non-Horn Deductive Systems.
+Fast Text Access Methods for Optical and Large Magnetic Disks: Designs and Performance Comparison.
+Design and Implementation of an Extensible Database Management System Supporting User Defined Data Types and Functions.
+Extended User-Defined Indexing with Application to Textual Databases.
+The Design of XPRS.
+Disk Shadowing.
+An Analysis of Three Transaction Processing Architectures.
+A Superimposed Coding Scheme Based on Multiple Block Descriptor Files for Indexing Very Large Data Bases.
+Techniques for Design and Implementation of Efficient Spatial Access Methods.
+Compact 0-Complete Trees.
+Efficient Transitive Closure Algorithms.
+Modelling Non Deterministic Queries and Updates in Deductive Databases.
+Efficient Search in Very Large Databases.
+Reducing Storage for Quorum Consensus Algorithms.
+A Theory of Timestamp-Based Concurrency Control for Nested Transactions.
+Mixed concurrency control: Dealing with heterogeneity in distributed database systems.
+A Formal Model of Trade-off between Optimization and Execution Costs in Semantic Query Optimization.
+Hash-Partitioned Join Method Using Dynamic Destaging Strategy.
+An Information-Theoretic Study on Aggregate Responses.

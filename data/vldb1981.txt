@@ -1,0 +1,55 @@
+Referential Integrity.
+Data Model Theory Meets a Practical Application.
+Modelling Events a Data Base Application Design.
+On Modelling Behavioural Semantics of Databases.
+Design and Analysis of a Relational Join Operation for VLSI.
+A Commercial Back-End Data Base System.
+Hardware Organization for Nonnumeric Processing.
+Concepts of Sorting and Projection in a Cellular Array.
+Algorithms for Acyclic Database Schemes.
+Join Graphs and Acyclic Database Schemes.
+Constraints on Null Values in Relational Databases.
+A Theory of Correct Locking Protocols for Database Systems.
+Optimistic Methods for Concurrency Control in Distributed Database Systems.
+Logical Integration of Locally Independent Relational Databases into a Distributed Database.
+The Transaction Concept: Virtues and Limitations (Invited Paper).
+Transaction Monitoring in ENCOMPASS: Reliable Distributed Transaction Processing.
+A Resource Class Independent Deadlock Detection Algorithm.
+User Interfaces for Pictorial Data Bases.
+Data Base System Performance Prediction Using an Analytical Model (Invited Paper).
+A Performance Evaluation of Data Base Machine Architectures (Invited Paper).
+Theoretical and Practical Tools for Data Base Design.
+A Method for Defining Information Structures and Transactions in Conceptual Schema Design.
+Information Systems Design Approach Integrating Data and Transactions.
+Impacts of Logic and Databases (Invited Paper).
+Data Models and Data Manipulation Languages: Complementary Semantics and Proof Theory.
+Efficient Processing of Interactive Relational Data Base Queries expressed in Logic.
+Data Base Machines: System Evaluation and Conversion Issues.
+Deferring Updates in a Relational Data Base System.
+Derived Relations: A Unified Mechanism for Views, Snapshots, and Distributed Data.
+A Transformational Framework for the Automatic Control of Derived Data.
+Separability - An Approach to Physical Data Base Design.
+Digital B-Trees.
+Reduced Cover-Trees and their Application in the Sabre Access Path Model.
+Integrating Data Base and Message Systems (Invited Paper).
+IML-Inscribed Nets for Modeling Text Processing and Data (Base) Management Systems.
+The Active Information System: A Data-Driven System for the Analysis of Imprecise Data.
+Distributed Data Processing Versus Distributed Data Base Processing.
+On Representing Incomplete Information in a Relational Data Base.
+Independent Components of Databases.
+Systematic Derivation of Complementary Specifications.
+A Compression Technique for Large Statistical Data-Bases.
+Application of Data Compression to a Large Bibliographic Data Base.
+Application of DBMS to Land Information Systems.
+A History of System R and SQL/Data System (Invited Paper).
+DSIS - A Database System with Interrelational Semantics.
+The Implementation of GERM, An Entity-Relationship Data Base Management System.
+Data Bases for Software Development.
+Scheduling of Page-Fetches in Join Operations.
+Concurrent Data Base Reorganization - Assessment of a Powerful Technique through Modeling.
+QUIST: A System for Semantic Query Optimization in Relational Databases.
+The Optimization Strategy for Query Evaluation in RDB/V1.
+A Database Approach to Modelling and Managing Security Information.
+Synergistic Authorization in Database Systems.
+SUBJECT: A Directory Driven System for Organizing and Accessing Large Statistical Databases.
+Data Dictionaries: An Assessment of Current Practice and Problems.

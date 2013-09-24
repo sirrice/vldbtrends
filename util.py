@@ -14,7 +14,7 @@ class Canonicalizer(object):
           ['graph', 'subgraph'],
           ['crowd', 'crowdsource'],
           ['mapreduce', 'hadoop'],
-          ['provenance', 'lineage']
+          ['lineage', 'provenance']
       ]
       ret = {}
       for syns in synonyms:

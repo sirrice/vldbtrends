@@ -1,0 +1,44 @@
+Multiprocessor Hash-Based Join Algorithms.
+Some Experimental Results on Distributed Join Algorithms in a Local Network.
+The Private Workspace Model Feasibility and Applications to 2PL Performance Improvements.
+G-WHIZ, a Visual Interface for the Functional Model with Recursion.
+Multirelations - Semantice and Languages.
+ARIEL - A Semantic Front-End to Relational DBMSs.
+File Processing Efficiency on the Content Addressable File Store.
+Dynamic and Order Preserving Data Partitioning for Database Machines.
+Design of a Signature File Method that Accounts for Non-Uniform Occurrence and Query Frequencies.
+Updating Replicated Data During Communications Failures.
+On-the-Fly, Incremental, Consistent Reading of Entire Databases.
+Understanding the Implications of View Update Policies.
+Concurrency Control in B+-Trees Databases Using Preparatory Operations.
+Pre-Analysis Locking: A Safe and Deadlock Free Locking Policy.
+Locking with Prevention of Cyclic and Infinite Restarting in Distributed Database Systems.
+An Object-Oriented Environment for OIS Applications.
+The Type Concept in Office Document Retrieval.
+"Fill-in-the-Form" Programming.
+Local and Global Query Optimization Mechanisms for Relational Databases.
+A Time Bound on the Materialization of some Recursively Defined Views.
+A Tool for Modular Database Design.
+Database Design Tools: An Expert System Approach.
+The MR Diagram - A Model for Conceptual Database Design.
+Incremental File Reorganization Schemes.
+Selective Deferred Index Maintenance & Concurrency Control in Integrated Information Systems.
+Bit Transposed Files.
+NetBook - a Data Model to Support Knowledge Exploration.
+Accommodating Exceptions in Databases, and Refining the Schema by Learning from them.
+Coping with Complexity in Automated Reasoning about Database Systems.
+A Model of CAD Transactions.
+An Architecture and Data Model for CAD Databases.
+An Extensible Object-Oriented Approach to Databases for VLSI/CAD.
+Update Semantics for Incomplete Databases.
+Hit Data Model Data Bases from the Functional Point of View.
+Determining when a Structure is a Nested Relation.
+A Knowledge-Based Approach to Data Management for Intelligent User Interfaces.
+The Representation and Deductive Retrieval of Complex Objects.
+Functional Dependencies in Logic Programs.
+An Evaluation of Buffer Management Strategies for Relational Database Systems.
+An Efficient Implementation of a Relational Data Base.
+Database Machine Morphology.
+On Semantic Reefs and Efficient Processing of Correlation Queries with Aggregates.
+Data Constructors: On the Integration of Rules and Relations.
+Computing Queries from Derived Relations.

@@ -1,0 +1,61 @@
+Semantic Modeling of Object Oriented Databases.
+Integrating Implicit Answers with Object-Oriented Queries.
+A Methodology for the Design and Transformation of Conceptual Schemas.
+Experimental Evaluation of Real-Time Optimistic Concurrency Control Schemes.
+Adaptive Load Control in Transaction Processing Systems.
+A Performance Evaluation of Multi-Level Transaction Management.
+Conecptual Modeling Using and Extended E-R Model (Abstract).
+Semantic Queries with Pictures: The VIMSYS Model.
+Optimization for Spatial Query Processing.
+Efficiency of Nested Relational Document Database Systems.
+A Formalism for Extended Transaction Model.
+A Transactional Model for Long-Running Activities.
+Safe Referential Structures in Relational Databases.
+A Metadata Approach to Resolving Semantic Conflicts.
+Solving Domain Mismatch and Schema Mismatch Problems with an Object-Oriented Database Programming Language.
+Management Of Schema Evolution In Databases.
+Using Write Protected Data Structures To Improve Software Fault Tolerance in Highly Available Database Management Systems.
+Adaptive Locking Strategies in a Multi-node Data Sharing Environment.
+Recovery and Coherency-Control Protocols for Fast Intersystem Page Transfer and Fine-Granularity Locking in a Shared Disks Transaction Environment.
+Active Database Systems (Abstract).
+Algebraic Properties of Bag Data Types.
+The Power of Methods With Parallel Semantics.
+Dynamic Constraints and Object Migration.
+Object Placement in Parallel Hypermedia Systems.
+Fido: A Cache That Learns to Fetch.
+Predictive Load Control for Flexible Buffer Allocation.
+Implementing Set-Oriented Production Rules as an Extension to Starburst.
+Effects of Database Size on Rule System Performance: Five Case Studies.
+Data Management for Large Rule Systems.
+Data and Knowledge Bases for Genome Mapping: What Lies Ahead? (Panel).
+Distributed Database Management: Current State-of-the-Art, Unsolved Problems, New Issues (Abstract).
+Real-Time Databases (Panel).
+Cooperative Database Design (Panel).
+Rule Management in Object Oriented Databases: A Uniform Approach.
+Ode as an Active Database: Constraints and Triggers.
+A Model for Active Object Oriented Databases.
+Kaleidoscope Data Model for An English-like Query Language.
+Extending the Search Strategy in a Query Optimizer.
+Performance Analysis of a Load Balancing Hash-Join Algorithm for a Shared Memory Multiprocessor.
+Cooperative Access to Data and Knowledge Baes (Abstract).
+An Iterative Method for Distributed Database Design.
+A Framework for Automating Physical Database Design.
+Optimizing Random Retrievals from CLV format Optical Disks.
+Temporal Logic & Historical Databases.
+A Temporal Knowledge Representation Model OSAM*/T and Its Query Language OQL/T.
+An Evaluation of Non-Equijoin Algorithms.
+Database Technologies for the 90's and Beyond (Panel).
+Language Constructs for Programming Active Databases.
+Alert: An Architecture for Transforming a Passive DBMS into an Active DBMS.
+On Maintaining Priorities in a Production Rule System.
+Federated Database Systems for Managing Distributed, Heterogeneous, and Autonomous Databases.
+A Functional Programming Approach to Deductive Databases.
+Aggregation and Relevance in Deductive Databases.
+Integrity Constraints Checking In Deductive Databases.
+Handling Data Skew in Multiprocessor Database Computers Using Partition Tuning.
+A Taxonomy and Performance Model of Data Skew Effects in Parallel Joins.
+Optimization of Multi-Way Join Queries for Parallel Execution.
+Interoperability In Multidatabases: Semantic and System Issues (Panel).
+Logic Programming Environments for Large Knowledge Bases: A Practical Perspective (Abstract).
+A Relationship Mechanism for a Strongly Typed Object-Oriented Database Programming Language.
+Deriving Production Rules for Incremental View Maintenance.

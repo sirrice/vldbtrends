@@ -1,0 +1,65 @@
+Managing Derived Data in the Gaea Scientific DBMS.
+Algebraic Optimization of Computations over Scientific Databases.
+Tioga: Providing Data Management Support for Scientific Visualization Applications.
+An Object Data Model with Roles.
+A Model of Methods Access Authorization in Object-oriented Databases.
+Versions of Simple and Composite Objects.
+Querying and Updating the File.
+Declustering Objects for Visualization.
+The Rufus System: Information Organization for Semi-Structured Data.
+Managing Semantic Heterogeneity with Production Rules and Persistent Queues.
+The Use of Information Capacity in Schema Integration and Translation.
+Specifying and Enforcing Intertask Dependencies.
+Integrity Constraint and Rule Maintenance in Temporal Deductive Knowledge Bases.
+Coral++: Adding Object-Orientation to a Logic Database Language.
+Queries Independent of Updates.
+Analysis of Dynamic Load Balancing Strategies for Parallel Shared Nothing Database Systems.
+Performance of Catalog Management Schemes for Running Access Modules in a Locally Distributed Database System.
+Implementation and Performance Evaluation of a Parallel Transitive Closure Algorithm on PRISMA/DB.
+STDL - A Portable Language for Transaction Processing.
+NCR 3700 - The Next-Generation Industrial Database Computer.
+Collections of Objects in SQL3.
+Universality of Serial Histograms.
+Viewers: A Data-World Analogue of Procedure Calls.
+Towards a Formal Approach for Object Database Design.
+Searching Large Lexicons for Partially Specified Terms using Compressed Inverted Files.
+Managing Temporal Financial Data in an Extensible Database.
+Hamming Filters: A Dynamic Signature File Organization for Parallel Stores.
+Managing Memory to Meet Multiclass Workload Response Time Goals.
+Adaptive Database Buffer Allocation Using Query Feedback.
+Dynamic Memory Allocation for Multiple-Query Workloads.
+A Cost-Effective Method for Providing Improved Data Availability During DBMS Restart Recovery After a Failure.
+Exploiting A History Database for Backup.
+Recovering from Main-Memory Lapses.
+Data Sharing Analysis for a Database Programming Lanaguage via Abstract Interpretation.
+A Domain-theoretic Approach to Integrating Functional and Logic Database Languages.
+Update Logging for Persistent Programming Languages: A Comparative Performance Evaluation.
+On Implementing a Language for Specifying Active Database Execution Models.
+An Adaptive Algorithm for Incremental Evaluation of Production Rules in Databases.
+An Active Object-Oriented Database: A Multi-Paradigm Approach to Constraint Management.
+Multi-Join Optimization for Symmetric Multiprocessors.
+On the Effectiveness of Optimization Search Strategies for Parallel Execution Spaces.
+Applying Hash Filters to Improving the Execution of Bushy Trees.
+Control of an Extensible Query Optimizer: A Planning-Based Approach.
+Query Optimization in the Presence of Foreign Functions.
+A Blackboard Architecture for Query Optimization in Object Bases.
+A Plan-Operator Concept for Client-Based Knowledge Progressing.
+Toward Practical Constraint Databases.
+Combining Theory and Practice in Integrity Control: A Declarative Approach to the Specification of a Transaction Modification Subsystem.
+Reading a Set of Disk Pages.
+Disk Mirroring with Alternating Deferred Updates.
+Memory-Adaptive External Sorting.
+A New Presumed Commit Optimization for Two Phase Commit.
+Local Disk Caching for Client-Server Database Systems.
+Key Range Locking Strategies for Improved Concurrency.
+Predictions and Challenges for Database Systems in the Year 2000.
+Object-Oriented Database Systems: Promises, Reality, and Future.
+DBMS Research at a Crossroads: The Vienna Update.
+Object Database Morphology.
+Database Research Strategies of Funding Agencies (Panel).
+Mobile Computing: Fertile Research Area or Black Hole? (Panel).
+The Voice of the Customer: Innovative and Useful Research Directions (Panel).
+A Practical Issue Concerning Very Large Data Bases: The Need for Query Governors.
+Problems/Challenges facing Industry Data Base Users.
+The Need for Data Quality.
+Database Requirements of Knowledge-based Production Scheduling and Control: A CIM Perspective.

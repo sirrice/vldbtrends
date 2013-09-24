@@ -1,0 +1,51 @@
+From a laguna to open waters: Another view on the next generations of databases.
+Knowledge to Mediate from User's Workstations to Databases.
+On the design and implementation of information systems from deductive conceptual models.
+A Deductive Method for Entity-Relationship Modeling.
+A Family of Incomplete Relational Database Models.
+Gral: An Extensible Relational Database System for Geometric Applications.
+The LSD tree: Spatial Access to Multidimensional Point and Nonpoint Objects.
+Managing Complex Objects in an Extensible Relational DBMS.
+Effective Resource Utilization for Multiprocessor Join Execution.
+Optimization and Dataflow Algorithms for Nested Tree Queries.
+Parallel Processing of Recursive Queries in Distributed Architectures.
+Pasta-3's Graphical Query Language: Direct Manipulation, Cooperative Queries, Full Expressive Power.
+ENIAM: A More Complete Conceptual Schema Language.
+FaceKit: A Database Interface Design Toolkit.
+A Low Communication Sort Algorithm for a Parallel Database Machine.
+Percentile Finding Algorithm for Multiple Sorted Runs.
+A Signature Access Method for the Starburst Database System.
+Commutativity and its Role in the Processing of Linear Recursion.
+Estimating the Size of Generalized Transitive Closures.
+Argument Reduction by Factoring.
+Database Support for Hypertext.
+Finding Regular Simple Paths in Graph Databases.
+Towards on Open Architecture for LDL.
+Event-Join Optimization in Temporal Relational Databases.
+Achieving Zero Information-Loss in a Classical Database Environment.
+Derived Data Update in Semantic Databases.
+Using Integrity Constraints to Provide Intensional Answers to Relational Queries.
+Integration of Buffer Management and Query Optimization in Relational Database Environment.
+The Effect of Bucket Size Tuning in the Dynamic Hybrid GRACE Hash Join Method.
+Building knowledge-based applications with cooperating databases.
+Random Sampling from B+ Trees.
+Aggregate Evaluability in Statistical Databases.
+Aggregates in Possibilistic Databases.
+Extending the Relational Algebra to Capture Complex Objects.
+Sorting, Grouping and Duplicate Elimination in the Advanced Information Management Prototype.
+Optimization of Relational Schemas Containing Inclusion Dependencies.
+The Case For Safe RAM.
+ARIES/NT: A Recovery Method Based on Write-Ahead Logging for Nested Transactions.
+Quasi Serializability: a Correctness Criterion for Global Concurrency Control in InterBase.
+The O2 Object Manager: an Overview.
+On Correctly Configuring Versioned Objects.
+The Starburst Long Field Manager.
+Scheduling Real-Time Transactions with Disk Resident Data.
+Priority in DBMS Resource Scheduling.
+The O2 Database Programming Language.
+A Model of Queries for Object-Oriented Databases.
+OQL: A Query Language for Manipulating Object-oriented Databases.
+Database Tools and Interfaces.
+Monitoring Database Objects.
+Situation Monitoring for Active Databases.
+Future research directions: Evidence from this conference.

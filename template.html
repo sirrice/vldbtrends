@@ -21,7 +21,7 @@
 	body { font-family: open sans; margin-left: 50px; width: 950px;
 	margin-right: auto; margin-left: auto; }
 	div.container {}
-	.word {font-family: Open Sans; font-size: 12pt; text-align: right;}
+	.word {font-family: Open Sans; font-size: 10pt; text-align: right;}
 	td {text-align: right;}
 	.spark { height: 70px; margin: 5px;}
 	table {float:left; margin-right: 20px; }
@@ -36,17 +36,19 @@
 	</style>
 </head>
 <body>
-	<h1 >What's hot in databases? (updated for 2013)</h1>
+	<h1 >What's hot in databases? (updated for 1975 to 2013!)</h1>
 	
 	<p >
-		Trending topics in VLDB, via key words in the titles of publications from 2000 to 2013.
+		Trending topics in VLDB, via key words in the titles of publications from 1975 to 2013.
+  <p>
 		I did a quick and dirty job of removing stop words and
 		stemming.  If you want, you can also <a
 		href="./stats.db">download the sqlite database</a> with all of
   the data.  Last year's analysis and commentary is at <a href="./vldb2012.html">vldb2012.html</a>.
 	</p>
 	<p>
-		Thanks to <a href="https://twitter.com/samrmadden">@samrmadden</a> for the 2000 - 2011 titles.<br/>
+  Thanks to <a href="https://twitter.com/samrmadden">@samrmadden</a> for the 2000 - 2011 titles.<br/>
+  Thansk to DBLP for the rest!
 
 	</p>
 	
@@ -58,37 +60,29 @@
     <h2>Most Stable</h2>
     <p>
     As we would expect, the most consistently popular keywords are all tightly
-    related to our expertise as a community.  <b>indexing, joins, 
-      schemas, processing and data mining</b> are all at the core of what we do.
+    related to our expertise as a community.  <b>databases, indexes, joins,
+    models, and management</b> are all at the core of what we do.
     </p>
     <div class="row">%s</div>
 
     <h2>What's hot?</h2>
     <p>
-    Here, we look for keywords whose max(count)/min(count) is maximized,
-    and where the peak happens <b>after</b> the trough.
+    Here, we look for keywords that have an overall upward trend.
     <p>
-    With several best papers in the past years, the explosion of
-    bigdata networks, and many new research and industrial systems,
-    <b>Graphs</b> are consistently on the rise.  <b>Mapreduce and cloud</b> had
-    their time and are now giving way to more specialized "big data" systems.
-    <b>Uncertainty</b> popped up as a topic several years back.  Exploratory
-    analysis like <b>matching, searching, and similarity</b> have always been 
-    around, but are getting more popular.  Did we just discover that <b>fast</b>
-    queries are better queries?  Probably not, we just emphasize it explicitly 
-    now.
+    It's interesting that <b>queries, indices, and efficiency</b> are 
+    new in the past two decades.  We can also see the <b>web</b> burst onto 
+    the scene, bringing <b>search</b> along with it.  We see the
+    excitement, then decline of <b>streaming</b>.  <b>Distributed</b>
+    processing is on the rise in parallel with "big data".
+
     </p>
     <div class="row">%s</div>
 
 
   <h2>What's not?</h2>
     <p>
-    We always talk about <b>XML</b> being dead, at it sure looks that way on 
-    paper.  Traditional analytic and enterprise database problems like 
-    <b>OLAP cubes, views, and access patterns</b> are out of vogue,
-    and you probably want to avoid doing <b>reaserch</b> as a budding
-    academic (just kidding!).  I bet in 2000, <b>research</b> was still
-    being discovered.
+    On the long time scale, <b>database, models and relational</b> as keywords are dying!  We can see that <b>object oriented, rules, activity</b> came 
+    and went.  We always talk about <b>XML</b> being dead, at it sure looks that way on paper, along with <b>streams, services, and caching</b>.
     </p>
     <div class="row">%s</div>
 
@@ -96,16 +90,19 @@
 	
     <p>
         Let's now look at keywords that have burst into the scene in
-        the past few years.  Maybe you want 
-        to work on these problems.  These keywords are selected by computing
+        since I started graduate school (2007). 
+        These keywords are selected by computing
         the ratio of "the average number of times a keyword is used
         since 2010" by "the average before 2010".  
     </p>
 
-    <p> New hardware like <b>flash, and gpus</b> are taking over.  Could
-    NVRam soon join the club?  <b>Scaling bigdata</b> is still at the
+    <p> 
+    <b>Mapreduce, scaling, and the cloud</b> are still at the
     peak of the gartner hype cycle, and there are so many systems that
-    it's hard to even <b>compare</b> them. 
+    it's hard to even compare them.   
+    <p>
+    Web data is inherently <b>uncertain</b> so we need <b>probabilitc</b>
+    techniques to <b>search for similar</b> data.
 
     <p> Finally it's nice to see that <b>crowdsourcing</b>
     is <i>still</i> trending upwards.
@@ -133,7 +130,7 @@
 <h1>How is Eugene's career looking</h1>
 
 <p>
-The topics I've decided to work on look like a mixed bag.  <b>Provenance</b>
+The topics I've decided to work on look like a mixed bag.  <b>Provenance or lineage</b>
 seems to be down, but I believe in second chances.  Good to know
 that <b>data mining</b> is a stable topic!
 </p>

@@ -1,0 +1,77 @@
+Repeating History Beyond ARIES.
+Online Feedback for Nested Aggregate Queries with Multi-Threading.
+Generalised Hash Teams for Join and Group-by.
+Explaining Differences in Multidimensional Aggregates.
+Database Architecture Optimized for the New Bottleneck: Memory Access.
+The Persistent Cache: Improving OID Indexing in Temporal Object-Oriented Database Systems.
+Cache Conscious Indexing for Decision-Support in Main Memory.
+Comparing Hierarchical Data in External Memory.
+Mining Deviants in a Time Series Database.
+Exploiting Versions for Handling Updates in Broadcast Disks.
+Fast Algorithms for Maintaining Replica Consistency in Lazy Master Replicated Databases.
+Active Views for Electronic Commerce.
+An Adaptive Hybrid Server Architecture for Client Caching ODBMSs.
+Dynamic Load Balancing for Parallel Association Rule Mining on Heterogenous PC Cluster Systems.
+Histogram-Based Approximation of Set-Valued Query-Answers.
+Semantic Compression and Pattern Extraction with Fascicles.
+Issues in Network Management in the Next Millennium.
+A Scalable and Highly Available Networked Database Architecture.
+Networked Data Management Design Points.
+In Cyber Space No One can Hear You Scream.
+Finding Intensional Knowledge of Distance-Based Outliers.
+SPIRIT: Sequential Pattern Mining with Regular Expression Constraints.
+A Novel Index Supporting High Volume Data Warehouse Insertion.
+Microsoft English Query 7.5: Automatic Extraction of Semantics from Relational Databases and OLAP Cubes.
+The New Locking, Logging, and Recovery Architecture of Microsoft SQL Server 7.0.
+The Value of Merge-Join and Hash-Join in SQL Server.
+VOODB: A Generic Discrete-Event Random Simulation Model To Evaluate the Performances of OODBs.
+DBMSs on a Modern Processor: Where Does Time Go?
+Performance Measurements of Compressed Bitmap Indices.
+Capturing and Querying Multiple Aspects of Semistructured Data.
+Relational Databases for Querying XML Documents: Limitations and Opportunities.
+Query Optimization for XML.
+Context-Based Prefetch for Implementing Objects on Relations.
+GHOST: Fine Granularity Buffering of Indexes.
+Loading a Cache with Query Results.
+Building Hierarchical Classifiers Using Class Proximity.
+Distributed Hypertext Resource Discovery Through Examples.
+Multi-Dimensional Substring Selectivity Estimation.
+Evaluating Top- k Selection Queries.
+Probabilistic Optimization of Top N Queries.
+Combining Histograms and Parametric Curve Fitting for Feedback-Driven Query Result-size Estimation.
+Integrating Heterogenous Overlapping Databases through Object-Oriented Transformations.
+Quality-driven Integration of Heterogenous Information Systems.
+Physical Data Independence, Constraints, and Optimization with Universal Plans.
+On Efficiently Implementing SchemaSQL on an SQL Database System.
+Unrolling Cycles to Decide Trigger Termination.
+User-Defined Table Operators: Enhancing Extensibility for ORDBMS.
+Optimal Grid-Clustering: Towards Breaking the Curse of Dimensionality in High-Dimensional Clustering.
+Similarity Search in High Dimensions via Hashing.
+What can Hierarchies do for Data Warehouses?
+O-O, What Have They Done to DB2?
+High Level Indexing of User-Defined Types.
+Implementation of SQL3 Structured Types with Inheritance and Value Substitutability.
+Generating Call-Level Interfaces for Advanced Database Application Programming.
+PM3: An Orthogonal Persistent Systems Programming Language - Design, Implementation, Performance.
+Cost Models DO Matter: Providing Cost Information for Diverse Data Sources in a Federated System.
+Active Storage Hierarchy, Database Systems and Applications - Socratic Exegesis.
+Data-Driven, One-To-One Web Site Generation for Data-Intensive Applications.
+Optimization of Run-time Management of Data Intensive Web-sites.
+Extracting Large-Scale Knowledge Bases from the Web.
+Aggregation Algorithms for Very Large Compressed Data Warehouses.
+Extending Practical Pre-Aggregation in On-Line Analytical Processing.
+Hierarchical Prefix Cubes for Range-Sum Queries.
+Implementation of Two Semantic Query Optimization Techniques in DB2 Universal Database.
+High-Performance Extensible Indexing.
+Online Dynamic Reordering for Interactive Data Processing.
+What Do Those Weird XML Types Want, Anyway?
+Industrial Panel on Data Warehousing Technologies: Experiences, Challenges, and Directions.
+Datawarehousing Has More Colours Than Just Black & White.
+Curio: A Novel Solution for Efficient Storage and Indexing in Data Warehouses.
+Hyper-Programming in Java.
+Building Light-Weight Wrappers for Legacy Web Data-Sources Using W4F.
+XML Repository and Active Views Demonstration.
+Spatio-Temporal Retrieval with RasDaMan.
+Miro Web: Integrating Multiple Data Sources through Semistructured Data Types.
+Aqua: A Fast Decision Support Systems Using Approximate Query Answers.
+The Mirror MMDBMS Architecture.

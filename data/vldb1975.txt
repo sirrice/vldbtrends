@@ -1,0 +1,52 @@
+Query-by-Example: the Invocation and Definition of Tables and Forms.
+Semantic Integrity in a Relational Data Base System.
+Functional Specifications of Subsystem for Database Integrity.
+The Use of Cluster Analysis in Physical Data Base Design.
+Data Models for Secondary Storage Representations.
+Stanford's Generalized Database System.
+Using Semantic Networks for Database Management.
+Specification of Stored Data Structures and Desired Output Results in DIAM II with FORAL.
+The Enity-Relationship Model: Toward a Unified View of Data.
+Restructuring for Large Data Bases: Three Levels of Abstraction.
+On the Feasibility of Implementing a Large Relational Data Base with Optimal Performance on a Mini-Computer.
+A Multi-Level Architecture for Relational Data Base Systems.
+Automating Logical File Design.
+A Data Base Management Facility for Automatic Generation of Data Base Managers.
+Selection of File Organization Using an Analytic Model.
+Definition and Evaluation of Access Rules in Data Management Systems.
+Automatic Data Base Schema Design and Optimization.
+Hierarchical Performance Analysis Models for Data Base Systems.
+Optimal Choice of Data Restructuring Points.
+Needed: Distributed Control.
+Database Experience in the Netherlands PTT (ITCIS).
+A Computer Architecture for Large (Distributed) Data Bases.
+Optimal Allocation of Resources in Distributed Information Networks.
+Granularity of Locks in a Large Shared Data Base.
+On the Encipherment of Search Trees and Random Access Files.
+The Design of a Rotating Associative Array Memory for a Relational Database Management Application.
+Keyword Access to a Mass Storage Device at the Record Level.
+CASSM: A Cellular System for Very Large Data Bases.
+Estimating Response Time for Auxiliary Memory Configuartions with Multiple Movable-Head Disk Modules.
+A DBMS for the U.S. Bureo of the Census.
+Implementation Strategies for the Census Data Base.
+Using Large Data Bases for Interactive Problem Solving.
+Analyzing Transaction Activity to a Large Data Base: An Empirical Study.
+Multiple Concurrent Updates.
+An Optimizable Model for Application of Rollback/Restart/Recovery Procedures for Large Data Bases.
+An Experiment in Dedicated Data Management.
+Analysis of VSAM's Free-Space Behavior.
+Reorganization Points for File Designs with Nonlinear Processing Costs.
+Query Execution and Index Selection for Relational Data Bases.
+Hardware and System Architecture for a Very Large Database.
+Partial-Match Queries and File Designs.
+Recent Results on the Attribute Based Data Model - A Tutorial.
+Datalanguage: The Access Language on the Datacomputer.
+On the Implementation of a Logical Data Base Converter.
+Features of a Conceptual Schema.
+Different Views of a Data Base: Coexistence between Network Model and Relational Model.
+Multi-Level Data Model in DPLS - Database, Dynamic Program Control & Open-Ended Pol Support.
+Binary Search Tree Complex - Towards the Implementation of Relations.
+File Directory Design Considerations for Distributed Data Bases.
+Design Principles of a Data Base System for Unlimited Quantities of Data with Highly Complex Structures.
+An Experimental VM/370 Based Information System.
+PRTV: An Efficient Implementation for Large Relational Data Bases.

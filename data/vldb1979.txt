@@ -1,0 +1,48 @@
+Locking and Recovery in a Shared Database System: An Application Programming Tutorial.
+Spatial Management of Data (Abstract).
+Towards more Informative User Interfaces.
+Logical Design of Deductive Natural Language Consultable Data Bases.
+A System for Interactive Error Detection.
+Towards a Universal Relation Interface.
+Multivalued Dependencies with Null Values in Relational Data Bases.
+Algorithmic Applications for a new Result on Multivalued Dependencies.
+Generalized Mutual Dependencies and the Decomposition of Database Relations.
+The Quest for Comprehensive Semantic Formalisms.
+Functional Specification of a Decision Support System.
+Implementation of the IRRD Data Base in Portugal.
+A Description Language and Pilot-System Executive for Information-Transport Systems.
+Software Requirement Definition and Data Models.
+An External Schema Facility for CODASYL 1978.
+On the Role of `Understanding Models' in Conceptual Schema Design.
+Statistice for the Usage of a Conceptual Data Model as a Basis for Logical Data Base Design.
+An Optimized Backout Mechanism for Sequential Updates.
+On Search Performance for Conjunctive Queries in Compressed, Fully Transposed Ordered Files.
+Minimizing the I/O-Operations for Undo-Logging in Database Systems.
+Some Very Large Data Bases in Developing Countries.
+The ADAPT System: A Generalized Approach Towards Data Conversion.
+The Functional Dependency Model for Logical Database Design.
+Monitoring Integrity Constraints in a CODASYL-Like DBMS.
+A Designer for DBMS-Processable Logical Database Structures.
+The Entity Join.
+Fundamental and Secondary Issues in the Design of Non-Procedural Relational Languages.
+Tools for Information System Dynamics Management.
+Interactive Specification and Formal Verification of User's Views in Data Bases Design.
+Database Concurrent Processor.
+Data Base Management Systems Security and INGRES.
+Proving Consistency of Database Transactions.
+Database Program Conversion: A Framework for Research.
+A Methodologic Guide-Line for the Instalation of Data Base Development Tools and Data Administration Tools: Two Case Studies from Brazil.
+A DBMS for Large Statistical Databases.
+1978 New Orleans Data Base Design Workshop Report.
+Transaction and Catalog Management of the Distributed File Management System DISCO.
+On Optimistic Methods for Concurrency Control.
+Decentralized Authorization in a Database System.
+Two-Phase Deadlock Detection Algorithm in Distributed Databases.
+The Problem of Multiple Paths in a Database Schema.
+Ambiguity in Processing Boolean Queries on TDMS Tree Structures: A Study of Four Different Philosophies.
+Parallel Processing of Relations: A Single-Assignment Approach.
+Query Processing in a Relational Database Management System.
+Distribution Models of Relations.
+Application of Sub-Predicate Tests in Database Systems.
+Program Development by Transformations Applied to Relational Database Queries.
+Semantic Checking of Questions Expressed in Predicate Calculus Language.

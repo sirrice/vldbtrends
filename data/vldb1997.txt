@@ -1,0 +1,66 @@
+Innovation in Database Management: Computer Science vs. Engineering.
+The Microsoft Repository.
+Multidimensional Access Methods: Trees Have Grown Everywhere.
+Incremental Organization for Data Recording and Warehousing.
+Multiple-View Self-Maintenance in Data Warehousing Environments.
+Recovering Information from Summary Data.
+A Language for Manipulating Arrays.
+Implementing Abstract Objects with Inheritance in Datalog neg .
+The Case for Enhanced Abstract Data Types.
+Integrating Reliable Memory in Databases.
+Logical and Physical Versioning in Main Memory Databases.
+Using Versions in Update Transactions: Application to Integrity Checking.
+A Foundation for Multi-dimensional Databases.
+Fast Computation of Sparse Datacubes.
+Data Warehouse Configuration.
+Algorithms for Materialized View Design in Data Warehousing Environment.
+An Efficient Cost-Driven Index Selection Tool for Microsoft SQL Server.
+Materialized Views Selection in a Multidimensional Database.
+Efficient Construction of Regression Trees with Range and Region Splitting.
+Parallel Algorithms for High-dimensional Similarity Joins for Data Mining Applications.
+STING: A Statistical Information Grid Approach to Spatial Data Mining.
+Merging Ranks from Heterogeneous Internet Sources.
+To Weave the Web.
+Using Probabilistic Information in Data Integration.
+On-Demand Data Elevation in Hierarchical Multimedia Storage Servers.
+Principles of Optimally Placing Data in Tertiary Storage Libraries.
+Vertical Data Migration in Large Near-Line Document Archives Based on Markov-Chain Predictions.
+Describing and Using Query Capabilities of Heterogeneous Sources.
+Don't Scrap It, Wrap It! A Wrapper Architecture for Legacy Data Sources.
+Optimizing Queries Across Diverse Data Sources.
+Optimizing Queries with Universal Quantification in Object-Oriented and Object-Relational Databases.
+Parallel Query Scheduling and Optimization with Time- and Space-Shared Resources.
+The Complexity of Transformation-Based Join Enumeration.
+1-Safe Algorithms for Symmetric Site Configurations.
+Adaptive Data Broadcast in Hybrid Networks.
+Finding Data in the Neighborhood.
+A One-Pass Algorithm for Accurately Estimating Quantiles for Disk-Resident Data.
+Concurrent Garbage Collection in O2.
+Garbage Collection in Object Oriented Databases Using Transactional Cyclic Reference Counting.
+Dynamic Memory Adjustment for External Mergesort.
+Evaluation of Main Memory Join Algorithms for Joins with Set Comparison Join Predicates.
+Spatial Joins Using R-trees: Breadth-First Traversal with Global Optimizations.
+A Generic Approach to Bulk Loading Multidimensional Index Structures.
+A Region Splitting Strategy for Physical Database Design of Multidimensional File Organizations.
+M-tree: An Efficient Access Method for Similarity Search in Metric Spaces.
+DataGuides: Enabling Query Formulation and Optimization in Semistructured Databases.
+Using Taxonomy, Discriminants, and Signatures for Navigating in Text Databases.
+Towards an ODMG-Compliant Visual Object Query Language.
+Fast Incremental Maintenance of Approximate Histograms.
+Groupwise Processing of Relational Queries.
+Selectivity Estimation Without the Attribute Value Independence Assumption.
+Effective Memory Use in a Media Server.
+Efficient User-Adaptable Similarity Search in Large Multimedia Databases.
+Resource Scheduling in Enhanced Pay-Per-View Continuous Media Databases.
+Integrating SQL Databases with Content-Specific Search Engines.
+Facilitating Multimedia Database Exploration through Visual Interfaces and Perpetual Query Reformulations.
+Geo/Environmental and Medical Data Management in the RasDaMan System.
+GTE SuperPages: Using IR Techniques for Searching Complex Objects.
+Data Manager for Evolvable Real-time Command and Control Systems.
+Mining Insurance Data at Swiss Life.
+The Network as a Global Database: Challenges of Interoperability, Proactivity, Interactiveness, Legacy.
+Distributed Processing over Stand-alone Systems and Applications.
+Critical Database Technologies for High Energy Physics.
+Caprera: An Activity Framework for Transaction Processing on Wide-Area Networks.
+The Oracle Universal Server Buffer.
+Efficient Testing of High Performance Transaction Processing Systems.

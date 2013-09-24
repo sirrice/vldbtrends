@@ -1,0 +1,49 @@
+Some Large Questions about Very Large Data Bases.
+Splitting the Conceptual Schema.
+An Introduction to the Unified Database Language (UDL).
+Path Expressions for Complex Queries and Automatic Database Program Conversion.
+On Retrieval from a Small Version of a Large Data Base.
+Estimation of the Number of Tuples Satisfying a Query Expressed in Predicate Calculus Language.
+Processing Conjunctive Predicates and Queries.
+SIRIUS: A French Nationwide Project on Distributed Data Bases.
+Database Snapshots.
+Analysis of Distributed Data Base Processing Strategies.
+Data Abstraction, Databases and Conceptual Modelling.
+A Conceptual Model for Semantic Integrity Checking.
+Fast Maintenance of Semantic Integrity Assertions Using Redundant Aggregate Data.
+Knowledge-Based Query Processing.
+A Pragmatic Approach to Database Design.
+The Development and Application of Data Base Design Tools and Methodology.
+Managing Systems That Manage Data.
+Quintillabit: Parameters of a Hyperlarge Database.
+OFS: An Integrated Form Management System.
+A Dialogue Interface for Data Base Applications.
+Semantics vs. Graphics - To Show or not to Show.
+Distributed Database Systems.
+Efficient Access of Compressed Data.
+Linear Hashing: A New Tool for File and Table Addressing.
+Linear Hashing with Partial Expansions.
+Data Planning.
+Extension Joins.
+What does Boyce-Codd Normal Form Do?
+Functional Dependencies and Incomplete Information.
+Distributed Concurrency Control in Database Systems.
+Timestamp-Based Algorithms for Concurrency Control in Distributed Database Systems.
+Update Synchronization in Distributed Databases.
+Non-Two-Phase Locking Protocols with Shared and Exclusive Locks.
+Status Report on ISO/TC97/SC5/WG3 - Data Base Management Systems.
+Standardization and the Relational Approach to Databases: An ANSI Task Group Status Report.
+EEV Evaluation and Implementation of Database Systems.
+Telidon and the Human Factors of Videotex Data Bases.
+DB1 - A DBMS-Based Application Generator.
+Production Program Generation in a Flexible Data Dictionary System.
+An Intuitive Approach to Normalize Network Structured Data.
+Database Theory and its Relationship to Practice.
+On the Design of a Reliable Storage Component for Distributed Database Management Systems.
+The Analysis of the Effects of Concurrency Control on Distributed Database System Performance.
+Strategies for Handling Transactions in Distributed Data Base Systems During Recovery.
+Database Machines.
+Some Features of the TAXIS Data Model.
+Translation Structures of Relational Views.
+Some Analytic Tools for the Design of Relational Database Systems.
+DBMS Standards: Current Status and Future Directions.

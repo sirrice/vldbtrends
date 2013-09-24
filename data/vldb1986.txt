@@ -1,0 +1,56 @@
+Knowledge-based Integrity Constraint Validation.
+Checking Consistency of Database Constraints: a Logical Basis.
+Adaptive Predicate Managers in Database Systems.
+LDL: A Logic-Based Data Language.
+Optimizing the Rule-Data Interface in a KMS.
+Retrieval-By-Unification Operation on a Relational Knowledge Base.
+Historical Multi-Media Databases.
+Using History Information to Process Delayed Database Updates.
+Temporal Data Management.
+Object and File Management in the EXODUS Extensible Database System.
+Implementation Techniques of Complex Objects.
+Managing Text as Data.
+Estimating Block Accessses when Attributes are Correlated.
+Optimization of Nonrecursive Queries.
+Translating Aggregate Queries into Iterative Programs.
+R* Optimizer Validation and Performance Evaluation for Distributed Queries.
+Simple Random Sampling from Relational Databases.
+Completeness Information and Its Application to Query Processing.
+The Idea of De-Clustering and its Applications.
+A Superjoin Algorithm for Deductive Databases.
+A Study of Sort Algorithms for Multiprocessor Database Machines.
+An Overview of The System Software of A Parallel Relational Database Machine GRACE.
+A Reliable Backend Using Multiattribute Clustering and Select-Join Operator.
+GAMMA - A High Performance Dataflow Database Machine.
+Concurrent Operations in Extendible Hashing.
+The Management of Dynamically Distributed Database Windows (Extended Abstract).
+On Affinity Based Routing in Multi-System Data Sharing.
+ECRINS/86: An Extended Entity-Relationship Data Base Management System and its Semantic Query Language.
+An Extended Relational Database System and It's Application to Management of Logic Diagrama.
+Designing A Generalized NF2 Model with an SQL-Type Language Interface.
+An Observation on Database Buffering Performance Metrics.
+A Study of Index Structures for Main Memory Database Management Systems.
+Transposition Algorithms on Very Large Compressed Databases.
+Knowledge-Bases and Database Engineering.
+A General Model for Version Management in Databases.
+Toward a General Spatial Data Model for an Object-Oriented DBMS.
+A Unifying Framework for Version Control in a CAD Environment.
+Framework for the Security Component of an Ada DBMS.
+Preliminary Design of ADMS±: A Workstation-Mainframe Integrated Architecture for Database Management Systems.
+The REMIT System for Paraphrasing Relational Query Expressions into Natural Language.
+Relational Data Model with Cause-Effect Association (Abstract).
+On Analogical Query Processing in Logic Database.
+Multiple Query Processing in Deductive Databases using Query Graphs.
+Translation and Optimization of Logic Queries: The Algebraic Approach.
+On the Computation of the Transitive Closure of Relational Operators.
+A Parallel Processing Strategy for Evaluating Recursive Queries.
+Towards DBMSs for Supporting New Applications.
+Database Research at MCC (Abstract).
+Research and Development on Knowledge Bases Systems at ICOT.
+On the Properties of Extended Inclusion Dependencies.
+Updating Derived Relations: Detecting Irrelevant and Autonomously Computable Updates.
+Choosing a View Update Translator by Dialog at View Definition Time.
+Anyone for a VLDB in The Year 2000?
+Computer and Communication System Development among Financial Institutions in Japan.
+A Very Large Database System to Serve National Welfare.
+New Seat Reservation System for Japanese National Railways - Distributed Processing Network and High Efficiency Databases.

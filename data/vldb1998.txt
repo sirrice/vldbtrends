@@ -1,0 +1,82 @@
+Atomicity versus Anonymity: Distributed Transactions for Electronic Commerce.
+Technology and the Future of Commerce and Finance (Abstract).
+Determining Text Databases to Search in the Internet.
+Proximity Search in Databases.
+Incremental Maintenance for Materialized Views over Semistructured Data.
+Performance Measurements of Tertiary Storage Devices.
+Active Storage for Large-Scale Data Mining and Multimedia.
+Resource Scheduling for Composite Multimedia Objects.
+Hash Joins and Hash Teams in Microsoft SQL Server.
+Diag-Join: An Opportunistic Join Algorithm for 1:N Relationships.
+Evaluating Functional Joins Along Nested Reference Sets in Object-Relational and Object-Oriented Databases.
+Using Schema Matching to Simplify Heterogeneous Data Translation.
+nD-SQL: A Multi-Dimensional Language for Interoperability and OLAP.
+The Heterogeneity Problem and Middleware Technology: Experiences with and Performance of Database Gateways.
+Reducing the Braking Distance of an SQL Query Engine.
+Querying Continuous Time Sequences.
+Low-Cost Compensation-Based Query Processing.
+A Quantitative Analysis and Performance Study for Similarity-Search Methods in High-Dimensional Spaces.
+Improving Adaptable Similarity Query Processing by Using Approximations.
+MindReader: Querying Databases Through Multiple Examples.
+Design and Analysis of Parametric Query Optimization Algorithms.
+Inferring Function Semantics to Optimize Queries.
+TOPAZ: a Cost-Based, Rule-Driven, Multi-Phase Parallelizer.
+Filtering with Approximate Predicates.
+Optimal Histograms with Quality Guarantees.
+Binding Propagation in Disjunctive Databases.
+Computing Iceberg Queries Efficiently.
+Clustering Categorical Data: An Approach Based on Dynamical Systems.
+Incremental Clustering for Mining in a Data Warehousing Environment.
+On Optimal Node Splitting for R-trees.
+R-Tree Based Indexing of Now-Relative Bitemporal Data.
+Fast High-Dimensional Data Search in Incomplete Databases.
+On the Discovery of Interesting Patterns in Association Rules.
+Algorithms for Mining Association Rules for Binary Segmentations of Huge Categorical Databases.
+Algorithms for Mining Distance-Based Outliers in Large Datasets.
+PUBLIC: A Decision Tree Classifier that Integrates Building and Pruning.
+RainForest - A Framework for Fast Decision Tree Construction of Large Datasets.
+WaveCluster: A Multi-Resolution Clustering Approach for Very Large Spatial Databases.
+An Asynchronous Avoidance-Based Cache Consistency Algorithm for Client Caching DBMSs.
+Design, Implementation, and Performance of the LHAM Log-Structured History Data Access Method.
+Secure Buffering in Firm Real-Time Database Systems.
+Small Materialized Aggregates: A Light Weight Index Structure for Data Warehousing.
+Materialized View Selection for Multidimensional Datasets.
+Expiring Data in a Warehouse.
+Safely and Efficiently Updating References During On-line Reorganization.
+Buffering and Read-Ahead Strategies for External Mergesort.
+Bulk-Loading Techniques for Object Databases and an Application to Relational Data.
+Algorithms for Querying by Spatial Structure.
+A Raster Approximation For Processing of Spatial Joins.
+Scalable Sweeping-Based Spatial Join.
+Ratio Rules: A New Paradigm for Fast, Quantifiable Data Mining.
+Scalable Techniques for Mining Causal Structures.
+Mining Surprising Patterns Using Temporal Description Length.
+Massive Stochastic Testing of SQL.
+Selectivity Estimation in Extensible Databases - A Neural Network Approach.
+The Drill Down Benchmark.
+Issues in Developing Very Large Data Warehouses.
+The National Medical Knowledge Bank.
+Bank of America Case Study: The Information Currency Advantage.
+DTL's DataSpot: Database Exploration Using Plain Language.
+From Data Independence to Knowledge Independence: An on-going Story.
+Experiences in Federated Databases: From IRO-DB to MIRO-Web.
+Materialized Views in Oracle.
+Checkpointing in Oracle.
+Architecture of Oracle Parallel Server.
+KODA - The Architecture And Interface of a Data Model Independent Kernel.
+The ADABAS Buffer Pool Manager.
+A Database System for Real-Time Event Aggregation in Telecommunication.
+Heterogeneous Database Query Optimization in DB2 Universal DataJoiner.
+Plan-Per-Tuple Optimization Solution - Parallel Execution of Expensive User-Defined Functions.
+Is Web-site Management a Database Problem?
+Information, Communication, and Money: For What Can We Charge and How Can We Meter It?
+Starting (and Sometimes Ending) a Database Company.
+Bridging Heterogeneity: Research and Practice of Database Middleware Technology.
+The Cubetree Storage Organization.
+DataBlitz: A High Performance Main-Memory Storage Manager.
+DMS: A Parallel Data Mining Server.
+IBM's DB2 Universal Database demonstrations at VLDB'98.
+MapInfo SpatialWare: A Spatial Information Server for RDBMS.
+Objectivity Industrial Exhibit.
+Oracle Industrial Exhibit.
+A Single Pass Computing Engine for Interactive Analysis of VLDBs.

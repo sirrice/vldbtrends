@@ -1,0 +1,55 @@
+Database Portals: A New Application Program Interface.
+A Personal Data Manager.
+Query Processing on Personal Computers: A Pragmatic Approach (Extended Abstract).
+Ski: A Semantics-Knowledgeable Interface.
+Dependency Satisfaction in Databases with Incomplete Information.
+Transactions in Relational Databases (Preliminary Report).
+A Data Manipulation Model: An Extension of the Alpha Expression.
+A Less Costly Constraints Checking for Join Dependency.
+Datadict - A Data Analysis and Logical Database Design Tool.
+Relationship Merging in Schema Integration.
+A Temporal Framework for Database Specification and Verification.
+Statistical Databases.
+The Performance of Concurrency Control Algorithms for Database Management Systems.
+Choice and Performance in Locking for Databases.
+Evaluating Multiple Server DBMS in General Purpors Operating System Environments.
+Characteristics of Scientific Databases.
+Nested Transactions with Multiple Commit Points: An Approach to the Structuring of Advanced Database Applications.
+Molecular Objects, Abstract Data Types, and Data Models: A Framework.
+Equivalence and Mapping of Database Schemes.
+Comprehensive Approach to the Design of Relational Database Schemes.
+Interval Queries on Object Histories: Extended Abstract.
+Line Graph of Gamma-Acyclic Database Schems and its Recognition Algorithm.
+Bit-Sliced VLSI Algorithm for Search and Sort.
+Towards an Optimal Data-Structure: CB-trees.
+A Dynamic Perfect Hash Function Defined by an Extended Hash Indicator Table.
+Databases for Expert Systems.
+Development of a Multimedia Information System for an Office Environment.
+End User Access to Very Large Databases in an Automated Office/Workstation Environment.
+Language Support for Office Modelling.
+Constraint Equations: Declarative Expression of Constraints With Automatic Enforcement.
+Specification, Semantics, and Enforcement of Dynamic Database Constraints.
+A Relational Database View Update Translation Mechanism.
+Hashing Methods and Relational Algebra Operations.
+Extending the Algebraic Framework of Query Processing to Handle Outerjoins.
+Processing Read-Only Queries Over Views With Generalization.
+A Transaction Mechanism for Engineering Design Databases.
+An Example of Knowledge-Based Query Processing in a CAD/CAM DBMS.
+Information Processing for CAD/VLSI on a Generalized Data Management System.
+Certification by Intervals of Timestamps in Distributed Database Systems.
+UNIBASE - An Integrated Access to Databases.
+A Strategy for Decomposing Complex Queries in a Heterogeneous DDB.
+Optimization of Nested Queries in a Distributed Relational Database.
+Processing Inequality Queries Based on Generalized Semi-Joins.
+Optimizing Star Queries in a Distributed Database System.
+Inexpensive Large Capacity Storage will Revolutionize the Design of Database Management Systems.
+Robustness to Crash in a Distributed Database: A Non Shared-memory Multi-Processor Approach.
+Architectural Issues of Transaction Management in Multi-Layered Systems.
+Distributed Transaction Management in Jasmin.
+Unified Dynamic Hashing.
+Cascade Hashing.
+A Mapping Function for the Directory of a Multidimensional Extendible Hashing.
+Integration of Time Versions into a Relational Database System.
+Name-Tracing Using the ICL Content Addressable Filestore.
+Automatic Classification of Office Documents by Coupling Relational Data Bases and PROLOG Expert Systems.
+Retrieval of Relational Structures for Image Sequence Analysis.

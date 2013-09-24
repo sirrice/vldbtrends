@@ -8,6 +8,8 @@ from collections import Counter
 canonicalize = Canonicalizer()
 
 re_bad = re.compile('[^\w\'\s]')
+re_db = re.compile('data\s*base')
+re_bd = re.compile('big\s*data')
 
 def parse(fname, stemtoword):
     year = int(re.search('(?P<p>\d+)', fname).groups()[0])
@@ -17,19 +19,20 @@ def parse(fname, stemtoword):
     with file(fname, 'r') as f:
         for title in f:
             title = re_bad.sub(' ', title.lower())
-            title = title.replace("data base", "database")
-            title = title.replace("big data", "bigdata")
+            title = re_db.sub('database', title)
+            title = re_bd.sub('bigdata', title)
             if 'front' in title and 'matter' in title and 'edit' in title:
               continue
             uniquetitles.add(title)
 
+
     for title in uniquetitles:
       for w in title.strip().split():
         cw = canonicalize(w)
-        if w:
-          stemtoword[w] = stemtoword.get(cw, w)
-        counter.update([cw])
-      #counter.update(words)
+        if cw and cw not in stemtoword:
+          stemtoword[cw] = w
+        if cw:
+          counter.update([cw])
 
     return year, counter
 
@@ -53,16 +56,23 @@ except:
   print "you are probably overwriting the database"
   pass
 
-for k,v in gcounter.most_common():
+
+import pdb
+
+for k in gcounter.keys():
+
+    v = gcounter[k]
+
     if v <= 1:
-        break
+        continue
+
     if k not in stemtoword:
         print "skipping", k
         continue
     
     for year, counter in ycounters.items():
         db.execute("insert into counts values(?, ?, ?)", (year, stemtoword[k], counter.get(k, 0)))
-        print year, stemtoword[k], counter.get(k, 0)
+        #print year, stemtoword[k], counter.get(k, 0)
 
 db.commit()
 db.close()

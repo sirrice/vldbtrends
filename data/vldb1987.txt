@@ -1,0 +1,53 @@
+Database Support for Knowledge-Based Image Evaluation.
+MOBY: An Architecture for Distributed Expert Database Systems.
+Magic Functions: A Technique to Optimize Extended Datalog Recursive Programs.
+Optimization of Systems of Algebraic Equations for Evaluating Datalog Queries.
+Recursive Strategies for Answering Recursive Queries - The RQA/FQI Strategy.
+Using Design Axioms and Topology to Model Database Semantics.
+Integrity Checking in Deductive Databases.
+The Theory of Probabilistic Databases.
+The POSTGRES Data Model.
+FAD, a Powerful and Simple Database Language.
+Object-Oriented Specification of Databases: An Algebraic Approach.
+Constructing Database Systems in a Persistent Environment.
+Incremental Reorganization of Relational Databases.
+Supporting Flat Relations by a Nested Relational Kernel.
+On The Satisfiability of Dependency Constraints in Entity-Relationship Schemata.
+Dependency Inference.
+Independent Database Schemes under Functional and Inclusion Dependencies.
+Providing Time-Related Constraints for Conventional Database Systems.
+Dealing with Temporal Schema Anomalies in History Databases.
+Behaviour Management in Database Applications.
+Of Nests and Trees: A Unified Approach to Processing Queries That Contain Nested Subqueries, Aggregates, and Quantifiers.
+A Comparison of Self-Contained and Embedded Database Languages.
+Preferences; Putting More Knowledge into Queries.
+A Source-to-Source Meta-Translation System for Relational Query Languages.
+Translating and Optimizing SQL Queries Having Aggregates.
+Query Transformation for PSJ-Queries.
+Direct Algorithms for Computing the Transitive Closure of Database Relations.
+New Strategies for Computing the Transitive Closure of a Database Relation.
+An Extended Disjunctive Normal Form Approach for Optimizing Recursive Logic Queries in Loosely Coupled Environments.
+The Design of the POSTGRES Storage System.
+Index Access with a Finite Buffer.
+A New Compression Method with Fast Searching on Large Databases.
+Multimedia Information Management in an Object-Oriented Database System.
+Freeform: A User-Adaptable Form Management System.
+Mind Your Grammar: a New Approach to Modelling Text.
+An Analytical Method for Estimating and Interpreting Query Time.
+Measured Performance of Time Interval Concurrency Control Techniques.
+Query Optimization by Stored Queries.
+Basis of a Partially Informed Distributed Database.
+Extending Logging for Database Snapshot Refresh.
+Enhancements to the Voting Algorithm.
+Masking System Crashes in Database Application Programs.
+Integrity Constraint Reformulation for Efficient Validation.
+Log-Based Recovery for Nested Transactions.
+PRIMA - a DBMS Prototype Supporting Engineering Applications.
+DVSS: A Distributed Version Storage Server for CAD Applications.
+Managing Change in a Computer-Aided Design Database.
+Design and Analysis of Integrated Concurrency-Coherence Controls.
+Performance Evaluation of an Operating System Transaction Manager.
+Cooperative Object Buffer Management in the Advanced Information Management Prototype.
+Expert Database Support for Consistent Dynamic Objects.
+A Dual Space Representation for Geometric Data.
+The R+-Tree: A Dynamic Index for Multi-Dimensional Objects.

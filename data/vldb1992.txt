@@ -1,0 +1,58 @@
+CMD: A Multidimensional Declustering Method for Parallel Data Systems.
+Using Segmented Right-Deep Trees for the Execution of Pipelined Hash Joins.
+Practical Skew Handling in Parallel Joins.
+Querying in Highly Mobile Distributed Environments.
+A Temporal Evolutionary Object-Oriented Data Model and Its Query Language for Medical Image Management.
+Using Flexible Transactions to Support Multi-System Telecommunication Applications.
+Object-Oriented Database Systems.
+Optimizing Boolean Expressions in Object-Bases.
+Improved Unnesting Algorithms for Join Aggregate SQL Queries.
+Parametric Query Optimization.
+SVP: A Model Capturing Sets, Lists, Streams, and Parallelism.
+Supporting Lists in a Data Model (A Timely Approach).
+A Multi-Resolution Relational Data Model.
+Resilient Logical Structures for Efficient Management of Replicated Data.
+Dynamic Data Distribution (D 3 ) in a Shared-Nothing Multiprocessor Data Store.
+High Throughput Escrow Algorithms for Replicated Databases.
+Multiview: A Methodology for Supporting Multiple Views in Object-Oriented Databases.
+Entity Modeling in the MLS Relational Model.
+An Extended Relational Database Model for Uncertain and Imprecise Information.
+Spatial Databases.
+Database Management in the Year 2000: Projections and Star Gazing (Panel).
+A Method for Change Computation in Deductive Databases.
+CORAL - Control, Relations and Logic.
+Updates in a Rule-Based Language for Objects.
+Georgraphic Information Systems, A Challenge for the 90's (Panel).
+Proclamation-Based Model for Cooperating Transactions.
+Query Optimization in a Heterogeneous DBMS.
+The Principle of Commitment Ordering, or Guaranteeing Serializability in a Heterogeneous Environment of Multiple Autonomous Resource Mangers Using Atomic Commitment.
+Database Tuning.
+Implementing High Level Active Rules on Top of a Relational DBMS.
+Composite Event Specification in Active Databases: Model & Implementation.
+Production Rules in Parallel and Distributed Database Environments.
+An Efficient Indexing Technique for Full Text Databases.
+On B-Tree Indices for Skewed Distributions.
+Random Sampling from Pseudo-Ranked B+ Trees.
+Temporal Query Processing and Optimization in Multiprocessor Database Machines.
+Incomplete Information in Relational Temporal Databases.
+A Uniform Approach to Processing Temporal Queries.
+A Performance Study of Alternative Object Faulting and Pointer Swizzling Strategies.
+Performance Evaluation of an Adaptive and Robust Load Control Method for the Avoidance of Data-Contention Thrashing.
+Extensible Buffer Management of Indexes.
+Software Repositories.
+A Conceptual Model for Dynamic Clustering in Object Databases.
+Integrity Maintenance in Object-Oriented Databases.
+Activity Model: A Declarative Approach for Capturing Communication Behavior in Object-Oriented Databases.
+Database Technology for Reliable Systems: Issues, Impact, and Approaches (Panel).
+Multiversion Query Locking.
+Principles of Transaction-Based On-Line Reorganization.
+Parallelism in a Main-Memory DBMS: The Performance of PRISMA/DB.
+Locking and Latching in a Memory-Resident Database System.
+Multidatabase Applications: Semantic and System Issues.
+Knowledge Discovery in Databases: An Attribute-Oriented Approach.
+An Interval Classifier for Database Mining Applications.
+An Information-Retrieval Approach for Image Databases.
+Experiences With an Object Manager for a Process-Centered Environment.
+Global Memory Management in Client-Server Database Architectures.
+Performance and Scalability of Client-Server Database Architectures.
+Data Management for Real-Time Systems.

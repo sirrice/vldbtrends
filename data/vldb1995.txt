@@ -1,0 +1,72 @@
+The Double Life of the Transaction Abstraction: Fundamental Principle and Evolving System Concept.
+Document Management as a Database Problem.
+From VLDB to VMLDB (Very MANY Large Data Bases): Dealing with Large-Scale Semantic Heterogenity.
+A Performance Evaluation of OID Mapping Techniques.
+OODB Bulk Loading Revisited: The Partitioned-List Approach.
+Efficient Incremental Garbage Collection for Client-Server Object Database Systems.
+W3QS: A Query System for the World-Wide Web.
+Duplicate Removal in Information System Dissemination.
+Generalizing GlOSS to Vector-Space Databases and Broker Hierarchies.
+Hot Block Clustering for Disk Arrays with Dynamic Striping.
+A Performance Study of Workfile Disk Management for Concurrent Mergesorts in a Multiprocessor Database System.
+Declustering Databases on Heterogeneous Disk Systems.
+Value-cognizant Speculative Concurrency Control.
+High-Concurrency Locking in R-Trees.
+Index Concurrency Control in Firm Real-Time Database Systems.
+A Data Transformation System for Biological Data Sources.
+Schema and Database Evolution in the O2 Object Database System.
+Procedures in Object-Oriented Query Languages.
+Towards a Cooperative Transaction Model - The Cooperative Activity Model.
+A Practical and Modular Implementation of Extended Transaction Models.
+Using Formal Methods to Reason about Semantics-Based Decompositions of Transactions.
+Bypassing Joins in Disjunctive Queries.
+Coloring Away Communication in Parallel Query Optimization.
+The Fittest Survives: An Adaptive Approach to Query Optimization.
+Type Classification of Semi-Structured Documents.
+L/MRP: A Buffer Management Strategy for Interactive Continuous Data Flows in a Multimedia DBMS.
+Retrieval of Composite Multimedia Objects.
+Estimating the Selectivity of Spatial Queries Using the `Correlation' Fractal Dimension.
+Sampling-Based Estimation of the Number of Distinct Values of an Attribute.
+A Cost Model for Clustered Object-Oriented Databases.
+Processing Object-Oriented Queries with Invertible Late Bound Functions.
+Eager Aggregation and Lazy Aggregation.
+Aggregate-Query Processing in Data Warehousing Environments.
+A Non-Uniform Data Fragmentation Strategy for Parallel Main-Menory Database Systems.
+Managing Intra-operator Parallelism in Parallel Database Systems.
+Dynamic Multi-Resource Load Balancing in Parallel Database Systems.
+Mining Generalized Association Rules.
+Discovery of Multiple-Level Association Rules from Large Databases.
+An Efficient Algorithm for Mining Association Rules in Large Databases.
+Improving Performance in Replicated Databases through Relaxed Coherency.
+Redo Recovery after System Crashes.
+The ClustRa Telecom Database: High Availability, High Throughput, and Real-Time Response.
+NeuroRule: A Connectionist Approach to Data Mining.
+Fast Similarity Search in the Presence of Noise, Scaling, and Translation in Time-Series Databases.
+Querying Shapes of Histories.
+A Scalable Architecture for Autonomous Heterogeneous Database Interactions.
+OPOSSUM: Desk-Top Schema Management through Customizable Visualization.
+Flexible Relations - Operational Support of Variant Relational Structures.
+The hBP-tree: A Modified hB-tree Supporting Concurrency, Recovery and Node Consolidation.
+Generalized Search Trees for Database Systems.
+Near Neighbor Search in Large Metric Spaces.
+Query Processing in Tertiary Memory Databases.
+Applying Database Technology in the ADSM Mass Storage System.
+Benchmarking Spatial Join Operations with Spatial Output.
+Similarity based Retrieval of Pictures Using Indices on Spatial Relationships.
+Scientific Journals: Extinction or Explosion? (Panel).
+Databases and Workflow Management: What is it All About? (Panel).
+Metrics for Accessing Heterogeneous Data: Is There Any Hope? (Panel).
+Providing Database Migration Tools - A Practicioner's Approach.
+Promises and Realities of Active Database Systems.
+Database De-Centralization - A Practical Approach.
+A Product Specification Database for Visual Prototyping.
+Very Large Databases: How Large, How Different?
+DB2 Query Parallelism: Staging and Implementation.
+Managing a DB2 Parallel Edition Database.
+DB2 Common Server: Technology, Progress, & Directions.
+OS Support for VLDBs: Unix Enhancements for the Teradata Data Base.
+Accessing a Relational Database through an Object-Oriented Database Interface.
+Informix-Online XPS: A Dynamically Scalable RDBMS for Open Parallel Platforms.
+The Oracle Warehouse.
+Efficient Search of Multi-Dimensional B-Trees.
+BigSur: A System For the Management of Earth Science Data.

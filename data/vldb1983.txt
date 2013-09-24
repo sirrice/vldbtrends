@@ -1,0 +1,44 @@
+A Multimedia Office Filing System.
+Benchmarking Database Systems A Systematic Approach.
+Application of Novel Technologies to the Management of a Very Large Date Base.
+A Surrogate Concept for Engineering Databases.
+Active Databases as a Paradigm for Enhanced Computing Environments.
+Building Usable Menu-Based Natural Language Interfaces To Databases.
+The Multipurpose Presentation System.
+How Does an Expert System Get its Data? (Extended Abstract).
+Obtaining Progressive Protocols for a Simple Multiversion Database Model.
+Solving the Phantom Problem by Predicative Optimistic Concurrency Control.
+Disjoint-Interval Topological Sort: A Useful Concept in Serializability Theory (Extended Abstract).
+A Non-Two-Phase Locking Protocol for Concurrency Control in General Databases.
+Empirical Comparison of Database Concurrency Schemes.
+Basic Timestamp, Multiple Version Timestamp, and Two-Phase Locking.
+A Quantitative Comparison of Lockprotocols for Centralized Databases.
+A Dynamic Hash File for Random and Sequential Accessing.
+The Reconstruction and Optimization of Trie Hashing Functions.
+An Implementation of Hypothetical Relations.
+AIM - An Integrity Monitor for the Database System INGRES.
+Universal Relation Views: A Pragmatic Approach.
+Database Decomposition into Fourth Normal Form.
+Operations and the Properties on Non-First-Normal-Form Relational Databases.
+LAURA: A Formal Data Model and her Logical Design Methodology.
+A Pragmatic Approach to Structured Database Design.
+A Modularization Mechanism for Conceptual Modeling.
+Database Partitioning in a Cluster of Processors.
+File Allocation in Distributed Databases with Interaction between Files.
+An Analytic Approach to Statistical Databases.
+File Redundancy Issues in Distributed Database Systems.
+A Model for Integrated Information Systems.
+A Data Modeling Approach to Simplify the Design of User Interfaces.
+The Integrated Data Model: A Database Perspective.
+Query-By-Example: Operations on Piecewise Continuous Data (Extended Abstract).
+A Target Logical Schema: The ACS.
+Characterization of Well-Behaved Database Schemata and Their Update Semantics.
+An Abstract Introduction to the Temporal-Hierarchic Data Model (THM).
+A Modal System of Algebras for Database Specification and Query/Update Language Support.
+Processing Queries Over Generalization Hierarchies in a Multidatabase System.
+Supporting a Semantic Data Model in a Distributed Database System.
+An Approach to Object Sharing in Distributed Datbase Systems.
+View Management in Distributed Data Base Systems.
+High-Level Navigational Facilities for Network and Relational Databases.
+Program Analysis for Conversion from a Navigation to a Specification Database Interface.
+Modelling Information Preserving Databases: Consequences of the Concept of Time.

@@ -1,0 +1,60 @@
+The Time Index: An Access Structure for Temporal Data.
+A Temporal Relational Algebra as Basis for Temporal Relational Completeness.
+Support for Temporal Data by Complex Objects.
+Indexing in a Hypertext Database.
+Search Key Substitution in the Encipherment of B-Trees.
+Query Processing for Multi-Attribute Clustered Records.
+Triggered Real-Time Databases with Consistency Constraints.
+Cooperative Transaction Hierarchies: A Transaction Model to Support Design Applications.
+A Formal Approach to Recovery by Compensating Transactions.
+A Study of Three Alternative Workstation-Server Architectures for Object Oriented Database Systems.
+Maintaining Consistency of Client-Cached Data.
+The Performance and Utility of the Cactis Implementation Algorithms.
+Parity Striping of Disk Arrays: Low-Cost Reliable Storage with Acceptable Throughput.
+Performance Analysis of Disk Arrays under Failure.
+Transaction Support in Read Optimizied and Write Optimized File Systems.
+An Adaptive Hash Join Algorithm for Multiuser Environments.
+Hash-Based Join Algorithms for Multiprocessor Computers.
+Bucket Spreading Parallel Hash: A New, Robust, Parallel Hash Join Method for Data Skew in the Super Database Computer (SDC).
+Two Epoch Algorithms for Disaster Recovery.
+Adaptable Recovery Using Dynamic Quorum Assignments.
+The Tree Quorum Protocol: An Efficient Approach for Managing Replicated Data.
+Factoring Augmented Regular Chain Programs.
+The Magic of Duplicates and Aggregates.
+How to Forget the Past Without Repeating It.
+Advanced Query Processing in Object Bases Using Access Support Relations.
+Elimination of View and Redundant Variables in a SQL-like Database Language for Extended NF2 Structures.
+Measuring the Complexity of Join Enumeration in Query Optimization.
+Hybrid Transitive Closure Algorithms.
+Distributed Transitive Closure Computations: The Disconnection Set Approach.
+A Parallel Strategy for Transitive Closure usind Double Hash-Based Clustering.
+Rule Ordering in Bottom-Up Fixpoint Evaluation of Logic Programs.
+Efficient Implementation of Loops in Bottom-Up Evaluation of Logic Queries.
+Right-, left- and multi-linear rule transformations that maintain context information.
+ARIES/KVL: A Key-Value Locking Method for Concurrency Control of Multiaction Transactions Operating on B-Tree Indexes.
+Commit_LSN: A Novel and Simple Method for Reducing Locking and Latching in Transaction Processing Systems.
+The Effect of Skewed Data Access on Buffer Hits and Data Contention an a Data Sharing Environment.
+Consistency of Versions in Object-Oriented Databases.
+Database Application Development as an Object Modeling Activity.
+ILOG: Declarative Creation and Manipulation of Object Identifiers.
+Tradeoffs in Processing Complex Join Queries via Hashing in Multiprocessor Database Machines.
+Hybrid-Range Partitioning Strategy: A New Declustering Strategy for Multiprocessor Database Machines.
+An Adaptive Data Placement Scheme for Parallel Database Computer Systems.
+A Multidatabase Transaction Model for InterBase.
+A Polygen Model for Heterogeneous Database Systems: The Source Tagging Perspective.
+The C-based Database Programming Language Jasmine/C.
+Synthesizing Database Transactions.
+Deriving Production Rules for Constraint Maintainance.
+Referential Integrity Revisited: An Object-Oriented Perspective.
+The Buddy-Tree: An Efficient and Robust Access Method for Spatial Data Base Systems.
+Query Processing for Distance Metrics.
+On Indexing Line Segments.
+On Restructuring Nested Relations in Partitioned Normal Form.
+Non-Monotonic Knowledge Evolution in VLKDBs.
+Database Updates through Abduction.
+An Incremental Join Attachment for Starburst.
+Distributed Linear Hashing and Parallel Projection in Main Memory Databases.
+Efficient Main Memory Data Management Using the DBGraph Storage Model.
+A Probabilistic Framework for Vague Queries and Imprecise Information in Databases.
+Priority-Hints: An Algorithm for Priority-Based Buffer Management.
+Concept Description Language for Statistical Data Modeling.

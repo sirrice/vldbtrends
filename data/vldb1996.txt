@@ -1,0 +1,72 @@
+The Changing Landscape of the Software Industry and its Implications for India.
+Very Large Databases in a Commercial Application Environment.
+Of Objects and Databases: A Decade of Turmoil.
+Filter Trees for Managing Spatial Data over a Range of Size Granularities.
+The X-tree : An Index Structure for High-Dimensional Data.
+Analysis of n-Dimensional Quadtrees using the Hausdorff Fractal Dimension.
+WATCHMAN : A Data Warehouse Intelligent Cache Manager.
+Efficient Snapshot Differential Algorithms for Data Warehousing.
+Incremental Maintenance of Externally Materialized Views.
+Optimization of Queries with User-defined Predicates.
+The Design and Implementation of a Sequence Database System.
+EROC: A Toolkit for Building NEATO Query Optimizers.
+A New SQL-like Operator for Mining Association Rules.
+Sampling Large Databases for Association Rules.
+Constructing Efficient Decision Trees by Using Optimized Numeric Association Rules.
+Reordering Query Execution in Tertiary Memory Databases.
+Query Processing Techniques for Multiversion Access Methods.
+Coalescing in Temporal Databases.
+Effective & Efficient Document Ranking without using a Large Lexicon.
+PESTO : An Integrated Query/Browser for Object Databases.
+Fast Nearest Neighbor Search in Medical Image Databases.
+Query Decomposition and View Maintenance for Query Languages for Unstructured Data.
+SchemaSQL - A Language for Interoperability in Relational Multi-Database Systems.
+Querying Heterogeneous Information Sources Using Source Descriptions.
+Supporting State-Wide Immunisation Tracking Using Multi-Paradigm Workflow Technology.
+ZOO : A Desktop Experiment Management Environment.
+Applying Data Mining Techniques to a Health Insurance Information System.
+Querying Multiple Features of Groups in Relational Databases.
+Modeling Skewed Distribution Using Multifractals and the `80-20' Law.
+Answering Queries with Aggregation Using Views.
+Semantic Data Caching and Replacement.
+Clustering Techniques for Minimizing External Path Length.
+Disseminating Updates on Broadcast Disks.
+Implementation and Analysis of a Parallel Collection Query Language.
+Calibrating the Query Optimizer Cost Model of IRO-DB, an Object-Oriented Federated Database System.
+Cost-based Selection of Path Expression Processing Algorithms in Object-Oriented Databases.
+Obtaining Complete Answers from Incomplete Databases.
+Object Fusion in Mediator Systems.
+The Role of Integrity Constraints in Database Interoperation.
+Dynamic Load Balancing in Hierarchical Parallel Database Systems.
+Estimation of Query-Result Distribution and its Application in Parallel-Join Load Balancing.
+Intra-Transaction Parallelism in the Mapping of an Object Model to a Relational Multi-Processor System.
+Supporting Periodic Authorizations and Temporal Reasoning in Database Access Control.
+Querying a Multilevel Database: A Logical Analysis.
+Further Improvements on Integrity Constraint Checking for Stratifiable Deductive Databases.
+On the Computation of Multidimensional Aggregates.
+Storage Estimation for Multidimensional Aggregates in the Presence of Hierarchies.
+Information Retrieval from an Incomplete Data Cube.
+SPRINT: A Scalable Parallel Classifier for Data Mining.
+Modeling Design Versions.
+Integrating Triggers and Declarative Constraints in SQL Database Sytems.
+Practical Issues with Commercial Use of Federated Databases.
+Supporting Procedural Constructs in SQL Compilers.
+Extracting Large Data Sets using DB2 Parallel Edition.
+Cache Coherency in Oracle Parallel Server.
+Scalablity and Availability in Oracle7 7.3.
+Bellcore's ADAPT/X Harness System for Managing Information on Internet and Intranets.
+DISNIC-PLAN: A NICNET Based Distributed Database for Micro-level Planning in India.
+Large Databases for Remote Sensing and GIS.
+DWMS: Data Warehouse Management System.
+The XPS Approach to Loading and Unloading Terabyte Databases.
+How System 11 SQL Server Became Fast.
+Using Referential Integrity To Easily Define Consistent Subset Replicas.
+The Query Optimizer in Tandem's new ServerWare SQL Product.
+TPC-D: The Challenges, Issues and Results.
+Tribeca: A Stream Database Manager for Network Traffic Analysis.
+MineSet(tm): A System for High-End Data Mining and Visualization.
+The Structured Information Manager: A Database System for SGML Documents.
+Loading the Data Warehouse Across Various Parallel Architectures.
+Performance of Future Database Systems: Bottlenecks and Bonananzas.
+Database Management Systems and the Internet.
+What is the Data Warehousing Problem? (Are Materialized Views the Answer?).

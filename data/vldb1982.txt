@@ -1,0 +1,37 @@
+TIMBER: A Sophisticated Relation Browser (Invited Paper).
+An Interactive Query Language for External Data Bases.
+GUIDE: Graphical User Interface for Database Exploration.
+System D: A Distributed System for Availability.
+Heterogeneity in the Distributed Database Management System SIRIUS-DELTA.
+A Heuristic Approach to Distributed Query Processing.
+A Sophisticate's Introduction to Distributed Concurrency Control (Invited Paper).
+A Formal Model for Maximum Concurrency in Transaction Systems with Predeclared Writesets.
+An Efficient Deadlock Removal Scheme for Non-Two-Phase Locking Protocols.
+Physical Design of Network Model Databases Using the Property of Separability.
+IDBD - An Interactive Design Tool for CODASYL-DBTG-Type Data bases.
+Storage and Access Structures to Support a Semantic Data Model.
+Reflections on Boyce-Codd Normal Form.
+A Methodology for View Inegration in Logical Database Design.
+Choices in Practical Data Design.
+Consistency and Transactions in CAD Database.
+Randomizing, A Practical Method for Protecting Statistical Databases Against Compromise.
+Data Structures for an Integrated Data Base Management and Information Retrieval System.
+Statistical Databases: Characteristics, Problems, and some Solutions.
+Microprocessor Assisted Tuple Access, Decompression and Assembly for Statistical Database Systems.
+Metadata Management for Large Statistical Databases.
+Databases for Computer Aided Design and Manufacturing.
+An Implementation of Impure Surrogates.
+A Mechanism for Managing the Buffer Pool in a Relational Database System Using the Hot Set Model.
+On Line Processing of Compacted Relations.
+Database Applications in Developing Countries.
+Specification-Based Computing Environments.
+A Temporal Framework for Database Specifications.
+Semantic Integrity Dependencies and Delayed Integrity Checking.
+A Single-File Version of Linear Hashing with Partial Expansions.
+Parallel Algorithms and Their Implementation in MICRONET.
+The Size of Projections of Relations Satisfying a Functional Dependency.
+Formalization of Database Systems - and a Formal Definition of IMS (Invited Paper).
+A Denotational Definition of the Semantics of DRC, A Domain Relational Calculus.
+Semantics of Network Data Manipulation Languages: An Object-Oriented Approach.
+On the Algebraic Specification of Databases.
+The Database/Data Dictionary Interface.

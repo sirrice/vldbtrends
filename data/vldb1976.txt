@@ -1,0 +1,15 @@
+New Criteria for the Conceptual Model.
+Structure and Redundancy in the Conceptual Schema in the Administration of Very Large Data Bases.
+A Semantic Model for Data Base Protection Languages.
+A Taxonomy of Data Models.
+Choosing an Efficient Internal Schema.
+DIAM II and Levels of Abstraction - The Physical Device Level: A General Model for Access Methods.
+Relational Transformation and a Redundancy in Relational Data Base.
+High Performance Hardware for Database Systems.
+An Approach to Data Communication between Different Generalized Data Base Management Systems.
+Application Program Conversion due to Data Base Changes.
+A Data Manipulation Language for Relational Data Structures.
+User Extensions to the Peterlee Relational Test Vehicle.
+A Deductive Capability for Data Management.
+An Enduser Guidance Component for an Intelligent Data Base System.
+MERLIN - Design of a National Bibliographic Database.

@@ -1,0 +1,62 @@
+Information Processing Systems in a Database Environment.
+Design and Performance Tools for Data Base Systems.
+Toward a Design Methodology for DBMS: A Software Engineering Approach.
+Extended Set Theory.
+A Survey of Research and Development in Distributed Database Management.
+Database Machine Architecture in the Context of Information Technology Evolution.
+A Survey: The Application of Data Base Management Computers in Distributed Systems.
+Design Criteria for Distributed Database Systems.
+Models of Distributed Systems.
+Architectural Issues in Distributed Data Base Systems.
+Observations on Data Manipulation Languages and Their Embedding in General Purpose Programming Languages.
+Standardization and Database Systems.
+Using New Clues to Find Data.
+Some Comments on Human Archival Memory as a Very Large Data Base.
+Psychological Issues in Data Base Management.
+Panel: User's View of Very Large Database Applications.
+Panel: Directions in Database Research.
+An Architectural Extension for a Large Database System Incorporating a Processor for Disk Search.
+Data File Management in Shift Register Memories.
+Associative Programming in CASSM and its Applications.
+Design of a Balanced Multiple Valued File Organization Schema with the Least Redundancy.
+Evaluation of Combinatorial File Orgenization Schemes.
+A Scan-Driven Sort Facility for a Relational Database System.
+A Conceptual Design of a Generalized Database Subsystem.
+A Direct Access Terabit Archival Memory.
+Tertiary Memory Access and Performance in the Datacomputer.
+Total Hospital Information System of Komagome Metropolitan Hospital.
+Encoding, Decoding and Storing Melodies for a Data Base of Renaissance Polyphony: A Progress Report.
+Architecture of the SOFIS Data Base Management System.
+Developing a Natural Language Interface to Complex Data.
+IDA: An Intelligent Data Access Program.
+User-Oriented Data Base Query with the ROBOT Natural Language Query System.
+Coexistence and Transformation of Data.
+A Processing Interface for Multiple External Schema Access to a Data Base Management System.
+Schema Analysis for Database Restructuring.
+A Unified Approach to Program and Data Conversion.
+A Relational Data Language with Simplified Binary Relation Handling Capability.
+Structure and Implementation of a Relational Query Language for the Problem Solver.
+A Generalized End-User Facility Architecture for Relational Database Systems.
+Domain-Oriented Relational Languages.
+POREL: A Distributed Data Base on an Inhomogeneous Computer Network.
+Data Base Support and Interactive Graphics.
+Multi-Level Structures of the DBTG Data Model for an Achievement of Physical Data Independence.
+Self-Descriptive Relational Data Base.
+Data Base Design by Applied Data Synthesis.
+The Decomposition Versus Synthetic Approach to Relational Database Design.
+A Consideration on Normal Form of Not-Necessarily-Normalized Relation in the Relational Data Model.
+Decomposition and Composition of a Relational Database.
+The Role Concept in Data Models.
+Multiple View Support within the ANSI/SPARC Framework.
+Implementation of a Fuzzy-Set Theoretic Data Structure System (Abstract).
+On Semantic Issues Connected with Incomplete Information Data Bases (Abstract).
+Protection of Information in Relational Data Bases.
+Scheduling Algorithms for Avoiding Inconsistency in Large Databases.
+A Kernel Design for a Secure Data Base Management System.
+Auditing Large Scale Data Bases.
+A Simulation Model for Performance Analysis of Large Shared Data Bases.
+CS4: A Tool for Database Design by Infological Simulation (Abstract).
+A Data Base Design Decision Support System.
+Evaluation and Optimization.
+Validation and Verification Aspects of Information Modeling.
+A Note on the Survey: ``Future of Database Technology''.
