@@ -1,0 +1,123 @@
+A Nanotechnology-based Approach to Data Storage.
+Integrating Information for On Demand Computing.
+The Data-Centric Revolution in Networking.
+The History of Histograms (abridged).
+Complex Queries over Web Repositories.
+XSEarch: A Semantic Search Engine for XML.
+An Efficient and Resilient Approach to Filtering and Disseminating Streaming Data.
+Efficient Mining of XML Query Patterns for Caching.
+A Framework for Clustering Evolving Data Streams.
+A Regression-Based Temporal Pattern Mining Scheme for Data Streams.
+On the Costs of Multilingualism in Database Systems.
+Distributed Top-N Query Processing with Possibly Uncooperative Local Systems.
+Optimized Query Execution in Large Search Engines with Global Page Ordering.
+Path Queries on Compressed XML.
+On the minimization of Xpath queries.
+Covering Indexes for XML Queries: Bisimulation - Simulation = Negation.
+Phrase Matching in XML.
+RRXF: Redundancy reducing XML storage in relations.
+MARS: A System for Publishing XML from Mixed and Redundant Storage.
+Projecting XML Documents.
+Mixed Mode XML Query Processing.
+From Tree Patterns to Generalized Tree Patterns: On Efficient Evaluation of XQuery.
+Efficient Processing of Expressive Node-Selecting Queries on XML Data in Secondary Storage: A Tree Automata-based Approach.
+Query Processing for High-Volume XML Message Brokering.
+Holistic Twig Joins on Indexed XML Documents.
+Maximizing the Output Rate of Multi-Way Join Queries over Streaming Information Sources.
+Scheduling for shared window joins over data streams.
+Load Shedding in a Data Stream Manager.
+Querying the Internet with PIER.
+Tuple Routing Strategies for Distributed Eddies.
+AQuery: Query Language for Ordered Data, Optimization Techniques, and Experiments.
+WISE-Integrator: An Automatic Integrator of Web Search Interfaces for E-Commerce.
+SASH: A Self-Adaptive Histogram Set for Dynamically Changing Workloads.
+VIPAS: Virtual Link Powered Authority Search in the Web.
+Balancing Performance and Data Freshness in Web Database Servers.
+Buffering Accesses to Memory-Resident Index Structures.
+Data Morphing: An Adaptive, Cache-Conscious Storage Technique.
+COMBI-Operator: Database Support for Data Mining Applications.
+A Shrinking-Based Approach for Multi-Dimensional Data Analysis.
+Data Bubbles for Non-Vector Data: Speeding-up Hierarchical Clustering in Arbitrary Metric Spaces.
+Finding Hierarchical Heavy Hitters in Data Streams.
+Star-Cubing: Computing Iceberg Cubes by Top-Down and Bottom-Up Integration.
+Coarse-Grained Optimization: Techniques for Rewriting SQL Statement Sequences.
+Processing Sliding Window Multi-Joins in Continuous Queries over Data Streams.
+Continuous K-Nearest Neighbor Queries for Continuously Moving Points with Updates.
+Staircase Join: Teach a Relational DBMS to Watch its (Axis) Steps.
+Checks and Balances: Monitoring Data Quality Problems in Network Traffic Databases.
+Systematic Development of Data Mining-Based Data Quality Tools.
+Adaptive, Hands-Off Stream Mining.
+Composing Mappings Among Data Sources.
+Mapping Adaptation under Evolving Schemas.
+Locking Protocols for Materialized Aggregate Join Views.
+Supporting Frequent Updates in R-Trees: A Bottom-Up Approach.
+The ND-Tree: A Dynamic Indexing Technique for Multidimensional Non-ordered Discrete Data Spaces.
+Temporal Slicing in the Evaluation of XML Queries.
+The Generalized Pre-Grouping Transformation: Aggregate-Query Optimization in the Presence of Dependencies.
+Estimating the Output Cardinality of Partial Preaggregation with a Measure of Clusteredness.
+BHUNT: Automatic Discovery of Fuzzy Algebraic Constraints in Relational Data.
+Tabular Placement of Relational Data on MEMS-based Storage Devices.
+Memory Requirements for Query Execution in Highly Constrained Devices.
+Lachesis: Robust Database Storage Management Based on Device-specific Performance Characteristics.
+Cache Tables: Paving the Way for an Adaptive Database Cache.
+Primitives for Workload Summarization and Implications for SQL.
+A Dependability Benchmark for OLTP Application Environments.
+Supporting Top-k Join Queries in Relational Databases.
+AniPQO: Almost Non-intrusive Parametric Query Optimization for Nonlinear Cost Functions.
+Efficient Approximation Of Optimization Queries Under Parametric Aggregation Constraints.
+The TPR*-Tree: An Optimized Spatio-Temporal Access Method for Predictive Queries.
+Query Processing in Spatial Network Databases.
+Multiscale Histograms: Summarizing Topological Relations in Large Spatial Datasets.
+Avoiding Ordering and Grouping In Query Processing.
+Operator Scheduling in a Data Stream Manager.
+Efficient IR-Style Keyword Search over Relational Databases.
+Merging Models Based on Given Correspondences.
+Locating Data Sources in Large Distributed Systems.
+Robust Estimation With Sampling and Approximate Pre-Aggregation.
+Controlling Access to Published Data Using Cryptography.
+OASIS: An Online and Accurate Technique for Local-alignment Searches on Biological Sequences.
+Privacy-Preserving Indexing of Documents on the Network.
+Data Compression in Oracle.
+Improving Performance with Bulk-Inserts in Oracle R-Trees.
+Statistics on Views.
+Efficient Query Processing for Multi-Dimensionally Clustered Tables in DB2.
+A Platform Based on the Multi-dimensional Data Model for Analysis of Bio-Molecular Structures.
+Capturing Global Transactions from Multiple Recovery Log Files in a Partitioned Database System.
+The BEA/XQRL Streaming XQuery Processor.
+XML Schemas in Oracle XML DB.
+Integrated Data Management for Mobile Services in the Real World.
+Web Services (Industrial Session).
+Grid and Applications (Industrial Session).
+Commercial Use of Database Technology.
+The Zero-Delay Data Warehouse: Mobilizing Heterogeneous Databases.
+A Database Striptease or How to Manage Your Personal Databases.
+Who needs XML Databases?
+Illuminating the Dark Side of Web Services.
+Xcerpt and visXcerpt: From Pattern-Based to Visual Querying of XML and Semistructured Data.
+OrientStore: A Schema Based Native XML Storage System.
+Managing Distributed Workspaces with Active XML.
+Xquec: Pushing Queries to Compressed XML Data.
+A System for Keyword Proximity Search on XML Databases.
+XISS/R: XML Indexing and Storage System using RDBMS.
+Implementing Xquery 1.0: The Galax Experience.
+WebService Composition with O'GRAPE and OSIRIS.
+Chameleon: an Extensible and Customizable Tool for Web Data Translation.
+NexusScout: An Advanced Location-Based Application on a Distributed, Open Mediation Platform.
+Schema-driven Customization of Web Services.
+BibFinder/StatMiner: Effectively Mining and Using Coverage and Overlap Statistics in Data Integration.
+S-ToPSS: Semantic Toronto Publish/Subscribe System.
+From Focused Crawling to Expert Information: an Application Framework for Web Exploration and Portal Generation.
+CachePortal II: Acceleration of Very Large Scale Data Center-Hosted Database-driven Web Applications.
+ATLAS: A Small but Complete SQL Extension for Data Mining and Data Streams.
+Business Modelling Using SQL Spreadsheets.
+An Interpolated Volume Data Model.
+Efficacious Data Cube Exploration by Semantic Summarization and Compression.
+QUIET: Continuous Query-driven Index Tuning.
+Chip-Secured Data Access: Reconciling Access Rights with Data Encryption.
+IrisNet: An Architecture for Internet-scale Sensing Services.
+Large-Scale, Standards-Based Earth Observation Imagery and Web Mapping Services.
+Privacy-Enhanced Data Management for Next-Generation e-Commerce.
+The Semantic Web: Semantics for Data on the Web.
+Data Stream Query Processing: A Tutorial.
+Grid Data Management Systems &amp; Services.
+Constructing and integrating data-centric Web Applications: Methods, Tools, and Techniques.

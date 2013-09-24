@@ -1,0 +1,105 @@
+Business Process Coordination: State of the Art, Trends, and Open Issues.
+Ambient Intelligence with the Ubiquitous Network, the Embedded Computer Devices and the Hidden Databases (abstract).
+Et tu, XML? The downfall of the relational empire (abstract).
+The Semantic Web Paving the Way to the Knowledge Society.
+LEO - DB2's LEarning Optimizer.
+User-Optimizer Communication using Abstract Plans in Sybase ASE.
+XXL - A Library Approach to Supporting Efficient Implementations of Advanced Database Queries.
+Generic Schema Matching with Cupid.
+A Formal Perspective on the View Selection Problem.
+Self-similarity in the Web.
+Surfing Wavelets on Streams: One-Pass Summaries for Approximate Aggregate Queries.
+Analyzing Quantitative Databases: Image is Everything.
+Discovery of Influence Sets in Frequently Updated Databases.
+RoadRunner: Towards Automatic Data Extraction from Large Web Sites.
+Visual Web Information Extraction with Lixto.
+Crawling the Hidden Web.
+A Database Index to Large Biological Sequences.
+Storage and Querying of E-Commerce Data.
+Improving Business Process Quality through Exception Understanding, Prediction, and Prevention.
+Weaving Relations for Cache Performance.
+Cache-Conscious Concurrency Control of Main-Memory Indexes on Shared-Memory Multiprocessor Systems.
+Form-Based Proxy Caching for Database-Backed Web Sites.
+FeedbackBypass: A New Approach to Interactive Similarity Query Processing.
+Fast Evaluation Techniques for Complex Similarity Queries.
+An Extendible Hash for Multi-Precision Similarity Querying of Image Databases.
+Similarity Search for Adaptive Ellipsoid Queries Using Spatial Transformation.
+Answering XML Queries on Heterogeneous Data Sources.
+Query Engines for Web-Accessible XML Data.
+Querying XML Views of Relational Data.
+Views in a Large Scale XML Repository.
+Supporting Incremental Join Queries on Ranked Inputs.
+Efficient Management of Multiversion Documents by Object Referencing.
+Efficient Progressive Skyline Computation.
+NetCube: A Scalable Tool for Fast Data Mining and Compression.
+Mining Multi-Dimensional Constrained Gradients in Data Cubes.
+C<sup
+A Fast Index for Semistructured Data.
+Efficient Index Structures for String Databases.
+Indexing and Querying XML Data for Regular Path Expressions.
+Declarative Data Cleaning: Language, Model, and Algorithms.
+Potter's Wheel: An Interactive Data Cleaning System.
+Update Propagation Strategies for Improving the Quality of Data on the Web.
+Walking Through a Very Large Virtual Environment in Real-time.
+Analyzing energy behavior of spatial access methods for memory-resident data.
+Indexing the Distance: An Efficient Method to KNN Processing.
+MV3R-Tree: A Spatio-Temporal Access Method for Timestamp and Interval Queries.
+Transaction Timestamping in (Temporal) Databases.
+Online Scaling in a Highly Available Database.
+An Evaluation of Generic Bulk Loading Techniques.
+Lineage Tracing for General Data Warehouse Transformations.
+A Data Warehousing Architecture for Enabling Service Provisioning Process.
+Approximate String Joins in a Database (Almost) for Free.
+Dynamic Pipeline Scheduling for Improving Interactive Query Performance.
+Functional Properties of Information Filtering.
+Dynamic Update Cube for Range-sum Queries.
+Intelligent Rollups in Multidimensional OLAP Data.
+Distinct Sampling for Highly-Accurate Answers to Distinct Values Queries and Event Reports.
+Hyperqueries: Dynamic Distributed Query Processing on the Internet.
+Comparing Hybrid Peer-to-Peer Systems.
+Data Staging for On-Demand Broadcast.
+Change-Centric Management of Versions in an XML Warehouse.
+Estimating the Selectivity of XML Path Expressions for Internet Scale Applications.
+On Processing XML in LDAP.
+Collaborative Analytical Processing - Dream or Reality? (Panel abstract).
+Are Web Services the Next Revolution in e-Commerce? (Panel).
+Storage Service Providers: a Solution for Storage Management? (Panel).
+French government activity in the conservation of data and electronic documents.
+The Long-Term Preservation of Authentic Electronic Records.
+Italian Electronic Identity Card - principle and architecture.
+Ontology-based Support for Digital Government.
+Discovering Web Services: An Overview.
+Architectures for Internal Web Services Deployment.
+Scientific OLAP for the Biotech Domain.
+Warehousing Workflow Data: Challenges and Opportunities.
+A Sequential Pattern Query Language for Supporting Instant Data Mining for e-Services.
+Aggregate Maintenance for Data Warehousing in Informix Red Brick Vista.
+Navigating large-scale semi-structured data in business portals.
+A Comparative Study of Alternative Middle Tier Caching Solutions to Support Dynamic Web Content Acceleration.
+The Propel Distributed Services Platform.
+Tavant System Architecture for Sell-side Channel Management.
+Operating System Extensions for the Teradata Parallel VLDB.
+Cache Fusion: Extending Shared-Disk Clusters with Shared Caches.
+DB2 Spatial Extender - Spatial data within the RDBMS.
+A Prototype Content-Based Retrieval System that Uses Virtual Images to Save Space.
+ACTIVIEW: Adaptive data presentation using SuperSQL.
+AgFlow: Agent-based Cross-Enterprise Workflow Management System.
+Cache Portal: Technology for Accelerating Database-driven e-commerce Web Sites.
+Developing an Indexing Scheme for XML Document Collection using the Oracle8i Extensibility Framework.
+Enabling End-users to Construct Data-intensive Web-sites from XML Repositories: An Example-based Approach.
+Flexible and scalable digital library search.
+LoPiX: A System for XML Data Integration and Manipulation.
+PicoDBMS: Validation and Experience.
+SIT-IN: a Real-Life Spatio-Temporal Information System.
+SMOOTH - A Distributed Multimedia Database System.
+Supervised Wrapper Generation with Lixto.
+The WorlInfo Assistant: Spatio-Temporal Information Integration on the Web.
+VXMLR: A Visual XML-Relational Database System.
+WARLOCK: A Data Allocation Tool for Parallel Warehouses.
+WebFilter: A High-throughput XML-based Publish and Subscribe System.
+Storage and Retrieval of XML Data Using Relational Databases.
+Data Management for Pervasive Computing.
+Caching Technologies for Web Applications.
+Approximate Query Processing: Taming the TeraBytes.
+Information Management for Genome Level Bioinformatics.
+Managing Business Processes via Workflow Technology.

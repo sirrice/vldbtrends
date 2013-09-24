@@ -1,0 +1,147 @@
+Explanation-Based Auditing.
+Human-powered Sorts and Joins.
+Verifying Computations with Streaming Interactive Proofs.
+A Moving-Object Index for Efficient Query Processing with Peer-Wise Location Privacy.
+ERA: Efficient Serial and Parallel Suffix Tree Construction for Very Long Strings.
+Fast Updates on Read-Optimized Databases Using Multi-Core CPUs.
+A Data-Based Approach to Social Influence Maximization.
+Front Matter
+On Predictive Modeling for Optimizing Transaction Execution in Parallel OLTP Systems.
+View Selection in Semantic Web Databases.
+Building Wavelet Histograms on Large Data in MapReduce.
+Summarization and Matching of Density-Based Clusters in Streaming Environments.
+Multilingual Schema Matching for Wikipedia Infoboxes.
+Controlling False Positives in Association Rule Mining.
+PARIS: Probabilistic Alignment of Relations, Instances, and Schema.
+Answering Top-k Queries Over a Mixture of Attractive and Repulsive Dimensions.
+PIQL: Success-Tolerant Query Processing in the Cloud.
+gSketch: On Query Estimation in Graph Streams.
+Indexing the Earth Mover's Distance Using Normal Distributions.
+Generating Exact- and Ranked Partially-Matched Answers to Questions in Advertisements.
+Size-l Object Summaries for Relational Keyword Search.
+REX: Explaining Relationships between Entity Pairs.
+PASS-JOIN: A Partition-based Method for Similarity Joins.
+Relative Lempel-Ziv Factorization for Efficient Storage and Retrieval of Web Collections.
+Towards Cost-Effective Storage Provisioning for DBMSs.
+B+-tree Index Optimization by Exploiting Internal Parallelism of Flash-based Solid State Drives.
+High-Performance Concurrency Control Mechanisms for Main-Memory Databases.
+Capturing Topology in Graph Pattern Matching.
+Probabilistic Management of OCR Data using an RDBMS.
+RTED: A Robust Algorithm for the Tree Edit Distance .
+Putting Lipstick on Pig: Enabling Database-style Workflow Provenance.
+Relational Approach for Shortest Path Discovery over Large Graphs.
+Mining Flipping Correlations from Large Datasets with Taxonomies.
+A Statistical Approach Towards Robust Progress Estimation.
+Relation Strength-Aware Clustering of Heterogeneous Information Networks with Incomplete Attributes.
+Shortest Path and Distance Queries on Road Networks: An Experimental Evaluation.
+The Filter-Placement Problem and its Application to Minimizing Information Multiplicity.
+Bayesian Locality Sensitive Hashing for Fast Similarity Search.
+Fast and Exact Top-k Search for Random Walk with Restart.
+Densest Subgraph in Streaming and MapReduce.
+Mining Attribute-structure Correlated Patterns in Large Attributed Graphs.
+Semi-Automatic Index Tuning: Keeping DBAs in the Loop.
+Aggregation in Probabilistic Databases via Knowledge Compilation.
+Stochastic Database Cracking: Towards Robust Adaptive Indexing in Main-Memory Column-Stores.
+An Adaptive Mechanism for Accurate Query Answering under Differential Privacy.
+SharedDB: Killing One Thousand Queries With One Stone.
+Pushing the Boundaries of Crowd-enabled Databases with Query-driven Schema Expansion.
+A Bayesian Approach to Discovering Truth from Conflicting Sources for Data Integration.
+How to Price Shared Optimizations in the Cloud.
+Dense Subgraph Maintenance under Streaming Edge Weight Updates for Real-time Story Identification.
+ReStore: Reusing Results of MapReduce Jobs.
+PerfXplain: Debugging MapReduce Job Performance.
+Uncertain Centroid based Partitional Clustering of Uncertain Data.
+Scalable K-Means++.
+Querying Schemas With Access Restrictions.
+Definition, Detection, and Recovery of Single-Page Failures, a Fourth Class of Database Failures.
+Concurrency Control for Adaptive Indexing.
+Comments on "Stack-based Algorithms for Pattern Matching on DAGs".
+An Analysis of Structured Data on the Web.
+Shortest Path Computation with No Information Leakage.
+V-SMART-Join: A Scalable MapReduce Framework for All-Pair Similarity Joins of Multisets and Vectors.
+Distributed GraphLab: A Framework for Machine Learning in the Cloud.
+Adding Logical Operators to Tree Pattern Queries on Graph-Structured Data.
+Learning Semantic String Transformations from Examples.
+Cologne: A Declarative Distributed Constraint Optimization Platform.
+Optimizing I/O for Big Array Analytics.
+Probabilistically Bounded Staleness for Practical Partial Quorums.
+Front Matter and Letter from the Associate Editors
+Efficient Subgraph Matching on Billion Node Graphs.
+Efficient Subgraph Similarity Search on Large Probabilistic Graph Databases.
+Truss Decomposition in Massive Networks.
+SEAL: Spatio-Textual Similarity Search.
+On The Spatiotemporal Burstiness of Terms.
+Efficient Reachability Query Evaluation in Large Spatiotemporal Contact Datasets.
+Boosting Moving Object Indexing through Velocity Partitioning.
+Type-Based Detection of XML Query-Update Independence.
+Minuet: A Scalable Distributed Multiversion B-Tree.
+Challenging the Long Tail Recommendation.
+Front Matter and Letter from the Associate Editors
+Answering Table Queries on the Web using Column Keywords.
+Efficient Verification of Web-Content Searching Through Authenticated Web Crawlers.
+SODA: Generating SQL for Business Users.
+Privacy Preservation by Disassociation.
+Supercharging Recommender Systems using Taxonomies for Learning User Purchase Behavior.
+DBToaster: Higher-order Delta Processing for Dynamic, Frequently Fresh Views.
+Real Time Discovery of Dense Clusters in Highly Dynamic Graphs: Identifying Real World Events in Highly Dynamic Environments.
+Sketch-based Querying of Distributed Sliding-Window Data Streams.
+LogBase: A Scalable Log-structured Database System in the Cloud.
+Efficient Processing of k Nearest Neighbor Joins using MapReduce.
+Early Accurate Results for Advanced Analytics on MapReduce.
+CDAS: A Crowdsourcing Data Analytics System.
+Mining Statistically Significant Substrings using the Chi-Square Statistic.
+Massively Parallel Sort-Merge Joins in Main Memory Multi-Core Database Systems.
+hStorage-DB: Heterogeneity-aware Data Management to Exploit the Full Capability of Hybrid Storage Systems.
+Front Matter
+Letter from the Editor-in-Chief.
+A Scalable Algorithm for Maximizing Range Sum in Spatial Databases.
+Spatial Queries with Two kNN Predicates.
+Optimal Algorithms for Crawling a Hidden Database in the Web.
+Diversifying Top-K Results.
+Keyword-aware Optimal Route Search.
+Answering Queries using Views over Probabilistic XML: Complexity and Tractability.
+Probabilistic Databases with MarkoViews.
+The Complexity of Social Coordination.
+Efficient Multi-way Theta-Join Processing Using MapReduce.
+Stubby: A Transformation-based Optimizer for MapReduce Workflows.
+Labeling Workflow Views with Fine-Grained Dependencies.
+Fundamentals of Order Dependencies.
+FDB: A Query Engine for Factorised Relational Databases.
+Optimization of Analytic Window Functions.
+Opening the Black Boxes in Data Flow Optimization.
+Spinning Fast Iterative Data Flows.
+REX: Recursive, Delta-Based Data-Centric Computation.
+K-Reach: Who is in Your Small World.
+Performance Guarantees for Distributed Reachability Queries.
+Efficient Indexing and Querying over Syntactically Annotated Trees.
+Queries with Guarded Negation.
+PrivBasis: Frequent Itemset Mining with Differential Privacy.
+Low-Rank Mechanism: Optimizing Batch Queries under Differential Privacy.
+Functional Mechanism: Regression Analysis under Differential Privacy.
+Injecting Uncertainty in Graphs for Identity Obfuscation.
+Publishing Microdata with a Robust Privacy Guarantee.
+Measuring Two-Event Structural Correlations on Graphs.
+Ranking Large Temporal Data.
+Compacting Transactional Data in Hybrid OLTP & OLAP Databases.
+Processing a Trillion Cells per Mouse Click.
+OLTP on Hardware Islands.
+Serializability, not Serial: Concurrency Control and Availability in Multi-Datacenter Datastores.
+Automatic Partitioning of Database Applications.
+CrowdER: Crowdsourcing Entity Resolution.
+Whom to Ask? Jury Selection for Decision Making Tasks on Micro-blog Services.
+ALAE: Accelerating Local Alignment with Affine Gap Exactly in Biosequence Databases.
+sDTW: Computing DTW Distances using Locally Relevant Constraints based on Salient Feature Alignments.
+SCOUT: Prefetching for Latent Feature Following Queries.
+Accelerating Pathology Image Data Cross-Comparison on CPU-GPU Hybrid Systems.
+Robust Estimation of Resource Consumption for SQL Queries using Statistical Techniques.
+Who Tags What? An Analysis Framework.
+A Generic Framework for Efficient and Effective Subsequence Retrieval.
+Only Aggressive Elephants are Fast Elephants.
+Multiple Location Profiling for Users and Relationships from Social Network and Content.
+Flash-based Extended Cache for Higher Throughput and Faster Recovery.
+Don't Thrash: How to Cache Your Hash on Flash.
+Learning Expressive Linkage Rules using Genetic Programming.
+Mining Frequent Itemsets over Uncertain Databases.
+Uncertain Time-Series Similarity: Return to the Basics.
+Statistical Distortion: Consequences of Data Cleaning.
+Towards Energy-Efficient Database Cluster Design

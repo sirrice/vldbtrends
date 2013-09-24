@@ -1,0 +1,161 @@
+Cover Page.
+Sponsors.
+Copyright Notice.
+Welcome Message from the General Chairs.
+Foreword from the PC Chairs.
+Conference Officers.
+Program Committees and External Reviewers.
+VLDB Endowment Board of Trustees.
+Table of Contents (pdf).
+Data Access Patterns in The Amazon.com Technology Platform.
+Technology for Developing Regions.
+Self-Tuning Database Systems: A Decade of Progress.
+Probabilistic Skylines on Uncertain Data.
+Matching Twigs in Probabilistic XML.
+OLAP over Imprecise Data with Domain Constraints.
+Materialized Views in Probabilistic Databases for Information Exchange and Query Optimization.
+LCS-TRIM: Dynamic Programming Meets XML Indexing and Querying.
+Extending XQuery with Window Functions.
+Structured Materialized Views for XML Queries.
+XRPC: Interoperable and Efficient Distributed XQuery.
+Security in Outsourcing of Association Rule Mining.
+Over-encryption: Management of Access Control Evolution on Outsourced Data.
+CADS: Continuous Authentication on Data Streams.
+Proof-Infused Streams: Enabling Authentication of Sliding Window Queries On Streams.
+Staying FIT: Efficient Load Shedding Techniques for Distributed Stream Processing.
+A Simple and Efficient Estimation Method for Stream Expression Cardinalities.
+Ad-hoc Top-k Query Answering for Data Streams.
+Extending Q-Grams to Estimate Selectivity of String Matching with Low Edit Distance.
+Fast nGram-Based String Search Over Data Encoded Using Algebraic Signatures.
+Effective Phrase Prediction.
+Lazy Maintenance of Materialized Views.
+Extending Dependencies with Conditions.
+Unifying Data and Domain Knowledge Using Virtual Views.
+Efficient Skyline Computation over Low-Cardinality Domains.
+Approaching the Skyline in Z Order.
+Efficient Computation of Reverse Skyline Queries.
+VGRAM: Improving Performance of Approximate Queries on String Collections Using Variable-Length Grams.
+Improving Data Quality: Consistency and Accuracy.
+Example-driven design of efficient record matching queries.
+Adaptive Aggregation on Chip Multiprocessors.
+To Share or Not To Share?
+Executing Stream Joins on the Cell Processor.
+RankMass Crawler: A Crawler with High PageRank Coverage Guarantee.
+EntityRank: Searching Entities Directly and Holistically.
+Building Structured Web Community Portals: A Top-Down, Compositional, and Incremental Approach.
+Scalable Semantic Web Data Management Using Vertical Partitioning.
+Ranked Subsequence Matching in Time-Series Databases.
+Indexable PLA for Efficient Similarity Search.
+Mining Approximate Top-K Subspace Anomalies in Multi-Dimensional Time-Series Data.
+Time Series Compressibility and Privacy.
+A Bayesian Method for Guessing the Extreme Values in a Data Set.
+Efficient Processing of Top-k Dominating Queries on Multi-Dimensional Data.
+Best Position Algorithms for Top-k Queries.
+Sum-Max Monotonic Ranked Joins for Evaluating Top-K Twig Queries on Weighted Data Graphs.
+Answering Aggregation Queries in a Secure System Model.
+The Boundary Between Privacy and Utility in Data Publishing.
+Minimality Attack in Privacy Preserving Data Publishing.
+On the Correctness Criteria of Fine-Grained Access Control in Relational Databases.
+Modeling and Querying Vague Spatial Objects Using Shapelets.
+On Efficient Spatial Matching.
+Main-Memory Operation Buffering for Efficient R-Tree Update.
+Monitoring Business Processes with Queries.
+An Approach to Optimize Data Processing in Business Processes.
+Reasoning about the Behavior of Semantic Web Services with Concurrent Transaction Logic.
+Randomized Algorithms for Data Reconciliation in Wide Area Aggregate Query Processing.
+Query Processing over Incomplete Autonomous Databases.
+iTrails: Pay-as-you-go Information Integration in Dataspaces.
+Update Exchange with Mappings and Provenance.
+Data Integration with Uncertainty.
+Context-Aware Wrapping: Synchronized Data Extraction.
+Processing Forecasting Queries.
+Cooperative Scans: Dynamic Bandwidth Sharing in a DBMS.
+Stop-and-Restart Style Execution for Long Running Decision Support Queries.
+K-Anonymization as Spatial Indexing: Toward Scalable and Incremental Anonymization.
+Fast Data Anonymization with Low Information Loss.
+Privacy Skyline: Privacy with Multidimensional Adversarial Knowledge.
+Integrity Auditing of Outsourced Data.
+Adaptive Fastest Path Computation on a Road Network: A Traffic Mining Approach.
+Seeking Stable Clusters in the Blogosphere.
+On Dominating Your Neighborhood Profitably.
+Detecting Attribute Dependencies from Query Feedback.
+Making Sense of Suppressions and Failures in Sensor Data: A Bayesian Approach.
+MIST: Distributed Indexing and Querying in Sensor Networks using Statistical Models.
+Early Profile Pruning on XML-aware Publish/Subscribe Systems.
+Value-Based Notification Conditions in Large-Scale Publish/Subscribe Systems.
+Efficiently Answering Top-k Typicality Queries on Large Databases.
+Depth Estimation for Ranking Query Optimization.
+Anytime Measures for Top-k Algorithms.
+Towards Graph Containment Search and Indexing.
+Graph Indexing: Tree + Delta &gt;= Graph.
+Multi-Probe LSH: Efficient Indexing for High-Dimensional Similarity Search .
+STAR: Self-Tuning Aggregation for Scalable Monitoring.
+SQLB: A Query Allocation Framework for Autonomous Consumers and Providers.
+Peer-to-Peer Similarity Search in Metric Spaces.
+Inferring XML Schema Definitions from XML Data.
+Querying Complex Structured Databases.
+Measuring the Structural Similarity of Semistructured Documents Using Entropy.
+Declarative Information Extraction Using Datalog with Embedded Extraction Predicates.
+A Relational Approach to Incrementally Extracting and Querying Structure in Unstructured Data.
+Efficient Keyword Search over Virtual XML Views.
+A General Framework for Modeling and Processing Optimization Queries.
+On the Production of Anorexic Plan Diagrams.
+Efficient Use of the Query Optimizer for Automated Database Design.
+Dynamic Workload Management for Very Large Data Warehouses: Juggling Feathers and Bowling Balls.
+Tracing Lineage Beyond Relational Operators.
+A Generic solution for Warehousing Business Process Data.
+Why You Should Run TPC-DS: A Workload Analysis.
+The End of an Architectural Era (It's Time for a Complete Rewrite).
+Computer Science 2.0: A New World of Data Management.
+RadixZip: Linear-Time Compression of Token Streams.
+Continuous Queries in Oracle.
+Challenges and Experience in Prototyping a Multi-Modal Stream Analytic and Monitoring Application on System S.
+Efficient Bulk Deletes for Multi Dimensionally Clustered Tables in DB2.
+Supporting Time-Constrained SQL Queries in Oracle.
+Request Window: an Approach to Improve Throughput of RDBMS-based Data Integration System by Utilizing Data Sharing Across Concurrent Distributed Queries.
+Inverse Functions in the AquaLogic Data Services Platform.
+A genetic approach for random testing of database systems.
+Bridging the Application and DBMS Profiling Divide for Database Application Developers.
+Automating the Detection of Snapshot Isolation Anomalies.
+Optimization of Frequent Itemset Mining on Multiple-Core Processor.
+CellSort: High Performance Sorting on the Cell Processor.
+Increasing Buffer-Locality for Multiple Index Based Scans through Intelligent Placement and Index Scan Speed Control.
+SciPort: An Adaptable Scientific Data Integration Platform for Collaborative Scientific Research.
+DataScope: Viewing Database Contents in Google Maps' Way.
+XBenchMatch: a Benchmark for XML Schema Matching Tools.
+GeRoMeSuite: A System for Holistic Generic Model Management.
+Semi-Automatic Schema Integration in Clio.
+XSeek: A Semantic XML Search Engine Using Keywords.
+Self-Organizing Schema Mappings in the GridVine Peer Data Management System.
+CallAssist: Helping Call Center Agents in Preference Elicitation.
+NS2: Networked Searchable Store with Correctness.
+GhostDB: Hiding Data from Prying Eyes.
+FuSem - Exploring Different Semantics of Data Fusion.
+IndeGS: Index Supported Graphics Data Server for CFD Data Postprocessing.
+A STEP Towards Realizing Codd's Vision of Rendezvous with the Casual User.
+TRAX - Real-World Tracking of Moving Objects.
+Zoom*UserViews: Querying Relevant Provenance in Workflow Systems.
+DAMIA - A Data Mashup Fabric for Intranet Applications.
+UQLIPS: A Real-time Near-duplicate Video Clip Detection System.
+The GCX System: Dynamic Buffer Minimization in Streaming XQuery Evaluation.
+A Cost-Estimation Component for Statement Sequences.
+Eliminating Impedance Mismatch in C++.
+Large Scale P2P Distribution of Open-Source Software.
+HiSbase: Histogram-based P2P Main Memory Data Management.
+P2P Authority Analysis for Social Communities.
+SOR: A Practical System for Ontology Storage, Reasoning and Search.
+Periscope/SQ: Interactive Exploration of Biological Sequence Databases.
+BlogScope: A System for Online Analysis of High Volume Text Streams.
+FluxCapacitor: Efficient Time-Travel Text Search.
+Deadline and QoS Aware Data Warehouse.
+Query language support for incomplete information in the MayBMS system.
+Adaptive query processing: Why, How, When, and What Next?
+Raster databases.
+From Data Privacy to Location Privacy: Models and Algorithms.
+Secure Data Outsourcing.
+Regulatory-Compliant Data Management.
+Probabilistic Graphical Models and their Role in Databases.
+XML retrieval: db/ir in theory, web in practice.
+Model Management and Schema Mappings: Theory and Practice.
+Performance Evaluation and Experimental Assessment - Conscience or Curse of Database Research?
+What does Web 2.0 have to do with databases?
