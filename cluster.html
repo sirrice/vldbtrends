@@ -1,0 +1,317 @@
+
+<html>
+<head>
+	<script src="./js/jquery.js"></script>
+	<script src="./js/jquery-ui.js"></script>
+	<script src="./js/sparklines.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>	
+	
+
+	<style>
+	@import url(http://fonts.googleapis.com/css?family=Carme);
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+	body { font-family: open sans; margin-left: 50px; width: 950px;
+	margin-right: auto; margin-left: auto; }
+	div.container {}
+	.word {font-family: Open Sans; font-size: 10pt; text-align: right;}
+	td {text-align: right;}
+	.spark { height: 70px; margin: 5px;}
+	table {float:left; margin-right: 20px; }
+	p {font-size: 12pt; width: 700px; margin: 15px; margin-bottom: 3ex; font-family: open sans;}
+	h1 {margin-top: 30px; font-family: open sans;}
+  h2 { color: rgb(151, 158, 170); font-size: 22pt; margin-top: 1.5em;}
+	.count {font-size: 10pt;}
+	table.topk {margin: 20px; width: 120px}
+	.year {font-weight: bold;}
+	b {color: steelblue; font-weight: bold;}
+	.footer {display: block; clear:both; text-align: center; font-size: 10pt; margin-top: 5em;}
+  .row { margin-top: 2.5em; }
+	</style>
+</head>
+<body>
+  <h1>Keyword Analysis of VLDB</h1>
+  <p>
+  This is an analysis and commentary of the keywords in VLDB paper
+  titles since 1975.  The word vectors are clustered by shape and highlight
+  the rise and fall of many topics in our area.
+  </p>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <div>Our field's birth was the impending downfall of <b>Codasyl</b>.
+        During this time, researchers were <b>designing the abstractions,
+          specifications and interfaces</b> 
+        that laid the groundwork for a nascent field.
+      </div>
+    </div>
+    <div class='col span2'>
+       <div class='word'>designs</div>
+       <div class='word'>file</div>
+       <div class='word'>abstraction</div>
+       <div class='word'>paper</div>
+       <div class='word'>invited</div>
+       <div class='word'>codasyl</div>
+       <div class='word'>specifications</div>
+       <div class='word'>conceptual</div>
+       <div class='word'>interface</div>
+       <div class='word'>office</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/plot0.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <div>
+        Early on, we were still trying to understand the right
+        <b>model</b> for data representation (Spoiler: not <b>object
+        oriented</b>).  This also introduced
+        classic topics like
+        <b>rule based optimization</b>, <b>transactions</b>,
+        and Query vs SQL question.
+      </div>
+    </div>
+    <div class='col span2'>
+       <div class='word'>object</div>
+       <div class='word'>model</div>
+       <div class='word'>oriented</div>
+       <div class='word'>transaction</div>
+       <div class='word'>language</div>
+       <div class='word'>rules</div>
+       <div class='word'>activity</div>
+       <div class='word'>panel</div>
+       <div class='word'>methods</div>
+       <div class='word'>extended</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/plot7.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <div>
+        Moving forward, databases have been adopted by major organizations
+        that want <i>performance</i>.  This is the era of <b>warehouses</b>
+        containing <b>multidimensional</b> data.  
+        Computers are cheap enough that Dewitt et. al can think about
+        <b>parallel execution</b> across multiple <b>servers</b>.
+      </div>
+    </div>
+    <div class='col span2'>
+       <div class='word'>parallel</div>
+       <div class='word'>server</div>
+       <div class='word'>heterogeneity</div>
+       <div class='word'>materialization</div>
+       <div class='word'>level</div>
+       <div class='word'>warehousing</div>
+       <div class='word'>associative</div>
+       <div class='word'>load</div>
+       <div class='word'>multidimensional</div>
+       <div class='word'>universal</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/plot6.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <div>
+        <b>Warehousing</b> continues into the early 2000s and it's 
+        <b>business</b> time for technologies like <b>OLAP</b>.
+        We have more than one server so <b>maintenance</b> and 
+        <b>client server caching</b> is an issue.
+        The <b>Internet</b> hits the scene and will fundamentally change
+        database's future.
+      </div>
+    </div>
+    <div class='col span2'>
+       <div class='word'>service</div>
+       <div class='word'>cached</div>
+       <div class='word'>technology</div>
+       <div class='word'>warehouse</div>
+       <div class='word'>internet</div>
+       <div class='word'>olap</div>
+       <div class='word'>site</div>
+       <div class='word'>business</div>
+       <div class='word'>space</div>
+       <div class='word'>maintenance</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/plot3.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <div>
+        This cluster is a mish-mash of classic and stable
+        topics like <b>databases, data management, queries and systems</b>, 
+        but introduces <b>searching</b> over your data.
+      </div>
+    </div>
+    <div class='col span2'>
+       <div class='word'>data</div>
+       <div class='word'>queries</div>
+       <div class='word'>database</div>
+       <div class='word'>systems</div>
+       <div class='word'>efficient</div>
+       <div class='word'>web</div>
+       <div class='word'>based</div>
+       <div class='word'>search</div>
+       <div class='word'>processing</div>
+       <div class='word'>management</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/plot1.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <div>
+        Databases are fundamentally a business tool, and 
+        businesses love <b>XML, XQuery</b> and <b><i>Oracle</i></b>.
+         This era also brought
+         forward <b>Surajit's automated database tuning</b>, 
+         <b>stream processing like STREAM, TelegraphCQ, and Borealis</b>,
+         and <b>peer-to-peer systems like Gnutella, Chord and others</b>.
+         This 
+         author worked on his first stream processing paper
+         during this time.
+      </div>
+    </div>
+    <div class='col span2'>
+       <div class='word'>xml</div>
+       <div class='word'>streams</div>
+       <div class='word'>engineering</div>
+       <div class='word'>xquery</div>
+       <div class='word'>peer</div>
+       <div class='word'>dimensional</div>
+       <div class='word'>oracle</div>
+       <div class='word'>cube</div>
+       <div class='word'>automatic</div>
+       <div class='word'>platforms</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/plot5.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <div style="margin-bottom: 10px">
+        The internet and humans means dirty data.  TRIO hoped to use
+        <b>uncertain, probabilistic</b> methods to deal 
+        with these issues.  
+      </div>
+      <div>
+        We also see data mining techniques like
+        <b>pattern matching, top-k, and similarity</b>.
+        <b>Scalability</b> hints at the next "revolution".
+        
+      </div>
+    </div>
+    <div class='col span2'>
+       <div class='word'>scalability</div>
+       <div class='word'>match</div>
+       <div class='word'>uncertain</div>
+       <div class='word'>probabilistic</div>
+       <div class='word'>similarity</div>
+       <div class='word'>analysis</div>
+       <div class='word'>top</div>
+       <div class='word'>awareness</div>
+       <div class='word'>pattern</div>
+       <div class='word'>mapping</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/plot4.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <div style="margin-bottom: 10px">
+        SoCC was founded to deal with the <b>cloud</b> (+<b>mapreduce</b>).
+        <b>Partitioning</b> is a classic trick to make things go <b>fast</b>.
+        <b>Differential privacy</b> is looked at as a way of securing data
+        in the cloud.
+      </div>
+        
+        <div>We finally have the infrastructure and <b>social</b> data
+        to work on real graph problems --
+        many of the best paper awards in this time focused 
+        on <b>graphs</b>.
+
+      </div>
+    </div>
+    <div class='col span2'>
+       <div class='word'>graphs</div>
+       <div class='word'>mapreduce</div>
+       <div class='word'>social</div>
+       <div class='word'>cloud</div>
+       <div class='word'>fast</div>
+       <div class='word'>results</div>
+       <div class='word'>distance</div>
+       <div class='word'>analytic</div>
+       <div class='word'>partitioning</div>
+       <div class='word'>differential</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/plot2-1.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <div>
+        As a young researcher, what's the bandwagon to jump on?
+        The upward trending terms hint at several topics.
+        Performance and <b>scaling</b> with new hardware like <b>GPUs</b>
+        is one direction. Data analysis, such as <b>frequent
+          itemset mining</b>, <b>diversifying results</b> and in
+        general helping users
+        <b>discover</b> interesting results is hugely important in the 
+        <b>bigdata</b> world.
+      </div>
+      <div style="margin-top: 10px">
+        Or work on the <b>crowd</b>! That still has a few years in its 
+        life.
+      </div>
+    </div>
+    <div class='col span2'>
+       <div class='word'>scale</div>
+       <div class='word'>crowd</div>
+       <div class='word'>labeling</div>
+       <div class='word'>points</div>
+       <div class='word'>frequent</div>
+       <div class='word'>discovering</div>
+       <div class='word'>rdf</div>
+       <div class='word'>comparison</div>
+       <div class='word'>gpus</div>
+       <div class='word'>diversification</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/plot2-0.png'/>
+    </div>
+  </div>
+  
+
+
+
+<div class='footer'><a href="http://www.sirrice.com/">eugene wu</a> &copy; 2013</div>
+
+
+</body>
+</html>

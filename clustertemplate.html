@@ -1,0 +1,53 @@
+
+<html>
+<head>
+	<script src="./js/jquery.js"></script>
+	<script src="./js/jquery-ui.js"></script>
+	<script src="./js/sparklines.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>	
+	
+
+	<style>
+	@import url(http://fonts.googleapis.com/css?family=Carme);
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+	body { font-family: open sans; margin-left: 50px; width: 950px;
+	margin-right: auto; margin-left: auto; }
+	div.container {}
+	.word {font-family: Open Sans; font-size: 10pt; text-align: right;}
+	td {text-align: right;}
+	.spark { height: 70px; margin: 5px;}
+	table {float:left; margin-right: 20px; }
+	p {font-size: 12pt; width: 700px; margin: 15px; margin-bottom: 3ex; font-family: open sans;}
+	h1 {margin-top: 30px; font-family: open sans;}
+  h2 { color: rgb(151, 158, 170); font-size: 22pt; margin-top: 1.5em;}
+	.count {font-size: 10pt;}
+	table.topk {margin: 20px; width: 120px}
+	.year {font-weight: bold;}
+	b {color: steelblue; font-weight: bold;}
+	.footer {display: block; clear:both; text-align: center; font-size: 10pt;}
+  .row { margin-top: 1em; }
+	</style>
+</head>
+<body>
+  {% for desc, words, src, _ in content %}
+  <div class='row'>
+    <div class='col span3'>
+      <p>{{ desc }}</p>
+    </div>
+    <div class='col span2'>
+      {% for w in words %} <div class='word'>{{w}}</div>
+      {% endfor %}
+    </div>
+    <div class='col span6'>
+      <img src='{{src}}'/>
+    </div>
+  </div>
+  {% endfor %}
+
+
+
+<div class='footer'><a href="http://www.sirrice.com/">eugene wu</a> &copy; 2011</div>
+
+
+</body>
+</html>
