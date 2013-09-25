@@ -5,7 +5,6 @@ import numpy as np
 import pdb
 
 from sklearn.cluster import KMeans
-from sompy import SOM
 from util import Canonicalizer
 from collections import *
 import random
@@ -50,14 +49,22 @@ imgs = []
 content = []
 
 def add_content(subcluster, content, suffix):
-    fig, ax = plt.subplots(1, figsize=(13,5))
+    fig, ax = plt.subplots(1, figsize=(6.5,2.5))
+    for childax in ax.get_children():
+      if isinstance(childax, mpl.spines.Spine):
+        childax.set_color('#aaaaaa')
+    for i in ax.get_xticklabels():
+      i.set_color('#aaaaaa')
+    for i in ax.get_yticklabels():
+      i.set_color('#aaaaaa')
+
     subcluster = sorted(subcluster, key=lambda t: max(t[1:].astype(float)), reverse=True)[:10]
     subcluster = np.array(subcluster)
     words = subcluster[:,0]
     ys = subcluster[:,1:].astype(float)
     mean = [np.mean(ys[:,i]) for i in xrange(ys.shape[1])]
     ys = ys.transpose()
-    ppl.plot(ax, xs, ys, alpha=0.25, color="#7777ee")
+    ppl.plot(ax, xs, ys, alpha=0.3, color="#7777ee")
     ppl.plot(ax, xs, mean, alpha=1, color="black")
     fname = './plots/plot%s.png' % (suffix)
     fig.savefig(fname, format='png')
