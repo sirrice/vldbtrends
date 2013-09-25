@@ -36,43 +36,46 @@ def parse(fname, stemtoword):
 
     return year, counter
 
+def put_in_sqlite(prefix, dbname=None):
+  if not dbname:
+    dbname = "%sstats.db" % prefix
 
-stemtoword = {}
-ycounters = {}
-gcounter = Counter()
-for fname in  os.listdir('./data/'):
-    if fname.startswith('vldb') and fname.endswith('.txt'):
-        year, counter = parse('./data/%s' % fname, stemtoword)
-        gcounter.update(counter)
-        ycounters[year] = counter
-
-
-db = sqlite3.connect('stats.db')
-try:
-  db.execute("create table counts (year int, word text, c int)")
-  db.execute("create index c_y on counts(year)")
-  db.execute("create index c_w on counts(word)")
-except:
-  print "you are probably overwriting the database"
-  pass
+  stemtoword = {}
+  ycounters = {}
+  gcounter = Counter()
+  for fname in  os.listdir('./data/'):
+      if fname.startswith(prefix) and fname.endswith('.txt'):
+          year, counter = parse('./data/%s' % fname, stemtoword)
+          gcounter.update(counter)
+          ycounters[year] = counter
 
 
-import pdb
+  db = sqlite3.connect(dbname)
+  try:
+    db.execute("create table counts (year int, word text, c int)")
+    db.execute("create index c_y on counts(year)")
+    db.execute("create index c_w on counts(word)")
+  except:
+    print "you are probably overwriting the database"
+    pass
 
-for k in gcounter.keys():
 
-    v = gcounter[k]
+  for k in gcounter.keys():
 
-    if v <= 1:
-        continue
+      v = gcounter[k]
 
-    if k not in stemtoword:
-        print "skipping", k
-        continue
-    
-    for year, counter in ycounters.items():
-        db.execute("insert into counts values(?, ?, ?)", (year, stemtoword[k], counter.get(k, 0)))
-        #print year, stemtoword[k], counter.get(k, 0)
+      if v <= 1:
+          continue
 
-db.commit()
-db.close()
+      if k not in stemtoword:
+          print "skipping", k
+          continue
+      
+      for year, counter in ycounters.items():
+          db.execute("insert into counts values(?, ?, ?)", (year, stemtoword[k], counter.get(k, 0)))
+          #print year, stemtoword[k], counter.get(k, 0)
+
+  db.commit()
+  db.close()
+
+

@@ -1,3 +1,4 @@
+import os
 import requests
 import pyquery
 
@@ -19,14 +20,23 @@ class Scraper(object):
   def __call__(self, year, suffix=None):
     if not suffix:
       suffix = year
+    outname = "%s/%s%s.txt" % (self.outdir, self.conf, year)
+    print "%s - %s" % (self.conf, year)
+    if os.path.exists(outname): 
+      print "skip"
+      return
+
     url = self.url % suffix
     r = requests.get(url)
     pq = pyquery.PyQuery(r.content)
     titles = pq.find(".title")
-    text = '\n'.join([get_me_unicode(pq(t).text()) for t in titles[1:]])
+    text = '\n'.join([self.get_me_unicode(pq(t).text()) for t in titles[1:]])
+    text = text.strip()
 
-    with file("%s/%s%s.txt" % (self.outdir, self.conf, year), 'w') as f:
-      f.write(text)
+
+    if text:
+      with file(outname, 'w') as f:
+        f.write(text)
 
 
 if __name__ == '__main__':
