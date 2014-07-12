@@ -55,7 +55,7 @@ def put_in_sqlite(prefix, dbname=None):
     db.execute("create table counts (year int, word text, c int)")
     db.execute("create index c_y on counts(year)")
     db.execute("create index c_w on counts(word)")
-  except:
+  except Exception as e:
     print "you are probably overwriting the database"
     pass
 

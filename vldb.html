@@ -6,15 +6,7 @@
 	<script src="./js/sparklines.js"></script>
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>	
 	
-	<script>
-	$(function() {
-		$('.spark').sparkline('html',
-             {width: "120px",
-              height: "25px"});
 
-	});
-	</script>
-	
 	<style>
 	@import url(http://fonts.googleapis.com/css?family=Carme);
 	@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
@@ -27,265 +19,259 @@
 	table {float:left; margin-right: 20px; }
 	p {font-size: 12pt; width: 700px; margin: 15px; margin-bottom: 3ex; font-family: open sans;}
 	h1 {margin-top: 30px; font-family: open sans;}
-  h2 { color: rgb(151, 158, 170); font-size: 22pt; margin-top: 1.5em;}
+  h2 { color: rgb(151, 158, 170); font-size: 15pt; }
 	.count {font-size: 10pt;}
 	table.topk {margin: 20px; width: 120px}
 	.year {font-weight: bold;}
 	b {color: steelblue; font-weight: bold;}
-	.footer {display: block; clear:both; text-align: center; font-size: 10pt;}
+	.footer {display: block; clear:both; text-align: center; font-size: 10pt; margin-top: 5em;}
+  .row { margin-top: 2em; }
 	</style>
 </head>
 <body>
-	<h1 >What's hot in databases? (updated for 1975 to 2013!)</h1>
-	
-	<p >
-		Trending topics in VLDB, via key words in the titles of publications from 1975 to 2013.
-		  <p>
-    Last year's analysis and commentary is at <a href="./vldb2012.html">vldb2012.html</a>.
-  <p>
-    The more interesting cluster analysis is at <a href="./index.html">index.html</a>.
-	</p>
-	<p>
-  Thanks to <a href="https://twitter.com/samrmadden">@samrmadden</a> for the 2000 - 2011 titles.<br/>
-  Thanks to DBLP for the rest!<br/>
-  If you want, the data and scripts are 
-    <a href="https://github.com/sirrice/vldbtrends">on GitHub</a>.
-
-	</p>
-	
-	<h1>Trends across all time</h1>
-    <p>
-        Thees trends are based on the keywords across all
-        years (1975 - now) of VLDB publications
-    </p>
-    <h2>Most Stable</h2>
-    <p>
-    As we would expect, the most consistently popular keywords are all tightly
-    related to our expertise as a community.  <b>databases, indexes, joins,
-    models, and management</b> are all at the core of what we do.
-    </p>
-    <div class="row"><div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>database</div>
-<div class='span2' style='height: 30px'><span class='spark'>29,8,36,39,24,26,34,19,25,26,17,24,23,13,22,18,27,24,24,27,32,27,16,20,12,20,15,19,17,30,25,16,16,19,19,27,18,21,7</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>systems</div>
-<div class='span2' style='height: 30px'><span class='spark'>9,3,17,15,13,12,19,8,12,11,5,13,10,5,3,6,10,8,6,13,17,14,4,3,8,7,12,14,10,20,18,11,15,17,8,8,16,7,4</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>distributed</div>
-<div class='span2' style='height: 30px'><span class='spark'>4,0,6,7,3,9,6,4,5,5,2,3,3,5,1,2,3,4,1,3,0,3,1,1,1,1,3,3,5,5,6,4,5,8,4,3,3,6,8</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>management</div>
-<div class='span2' style='height: 30px'><span class='spark'>6,2,7,7,6,5,3,4,2,6,2,10,7,2,5,3,7,7,7,4,8,8,3,3,3,5,8,6,8,15,8,5,9,8,6,3,8,2,1</span></div></div></div><div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>relational</div>
-<div class='span2' style='height: 30px'><span class='spark'>8,4,12,9,8,3,8,5,4,8,7,8,7,2,8,4,2,6,0,2,3,3,2,2,3,5,5,5,7,9,5,3,3,1,5,4,1,5,3</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>data</div>
-<div class='span2' style='height: 30px'><span class='spark'>39,13,51,48,29,34,46,25,32,33,24,32,27,15,25,29,37,33,33,37,41,41,37,39,29,42,45,53,65,72,50,45,61,66,51,61,60,42,30</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>algorithms</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,1,0,2,1,2,1,0,3,2,3,2,5,3,6,2,2,2,5,1,2,5,6,2,2,1,4,0,4,5,6,4,2,3,2,3,4,3</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>queries</div>
-<div class='span2' style='height: 30px'><span class='spark'>3,0,3,0,4,4,3,2,3,9,4,11,13,8,8,7,7,8,8,7,11,15,8,10,13,15,19,11,29,32,37,37,33,37,22,32,29,23,24</span></div></div></div><div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>model</div>
-<div class='span2' style='height: 30px'><span class='spark'>9,4,6,7,4,3,9,4,9,3,7,4,3,3,4,6,10,11,3,5,4,4,0,1,2,2,1,2,4,2,2,7,8,2,4,3,4,1,1</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>semantic</div>
-<div class='span2' style='height: 30px'><span class='spark'>2,1,1,1,2,3,4,4,2,2,3,1,1,2,1,0,5,1,1,2,2,1,0,1,3,2,1,1,5,5,5,4,4,1,2,4,1,2,0</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>dynamic</div>
-<div class='span2' style='height: 30px'><span class='spark'>1,0,0,1,1,0,0,0,1,3,1,1,2,3,1,1,1,2,3,1,3,1,1,1,2,1,4,4,2,0,4,2,4,4,4,3,0,3,2</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>performance</div>
-<div class='span2' style='height: 30px'><span class='spark'>2,1,3,1,1,1,2,0,0,2,1,3,2,4,0,2,4,4,3,6,3,1,1,5,4,3,2,1,3,3,2,1,3,5,4,4,2,3,2</span></div></div></div></div>
-
-    <h2>What's hot?</h2>
-    <p>
-    Here, we look for keywords that have an overall upward trend.
-    <p>
-    It's interesting that <b>queries, indices, and efficiency</b> are 
-    new in the past two decades.  We can also see the <b>web</b> burst onto 
-    the scene, bringing <b>search</b> along with it.  We see the
-    excitement, then decline of <b>streaming</b>.  <b>Distributed</b>
-    processing is on the rise in parallel with "big data".
-
-    </p>
-    <div class="row"><div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>queries</div>
-<div class='span2' style='height: 30px'><span class='spark'>3,0,3,0,4,4,3,2,3,9,4,11,13,8,8,7,7,8,8,7,11,15,8,10,13,15,19,11,29,32,37,37,33,37,22,32,29,23,24</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>data</div>
-<div class='span2' style='height: 30px'><span class='spark'>39,13,51,48,29,34,46,25,32,33,24,32,27,15,25,29,37,33,33,37,41,41,37,39,29,42,45,53,65,72,50,45,61,66,51,61,60,42,30</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>based</div>
-<div class='span2' style='height: 30px'><span class='spark'>2,0,0,3,0,3,0,1,2,2,2,6,2,2,2,5,2,4,5,4,3,2,2,7,4,6,6,4,13,14,14,9,5,10,10,13,15,12,7</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>efficient</div>
-<div class='span2' style='height: 30px'><span class='spark'>1,1,0,2,0,1,1,1,0,0,3,1,1,3,0,4,1,2,0,4,3,3,5,2,2,4,5,6,7,8,18,15,16,15,13,11,14,12,7</span></div></div></div><div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>distributed</div>
-<div class='span2' style='height: 30px'><span class='spark'>4,0,6,7,3,9,6,4,5,5,2,3,3,5,1,2,3,4,1,3,0,3,1,1,1,1,3,3,5,5,6,4,5,8,4,3,3,6,8</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>processing</div>
-<div class='span2' style='height: 30px'><span class='spark'>1,0,2,0,4,3,6,2,1,6,2,6,1,1,2,5,2,3,1,1,3,2,4,3,2,5,10,4,9,10,8,10,11,13,6,15,10,6,6</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>graphs</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,1,0,0,1,0,1,0,0,1,0,0,0,0,3,0,0,0,0,0,1,0,1,0,0,3,1,4,7,8,12,15,14,9</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>web</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,5,9,16,11,14,9,8,4,5,12,17,8,14,7,5</span></div></div></div><div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>index</div>
-<div class='span2' style='height: 30px'><span class='spark'>1,0,0,0,0,0,0,0,0,0,1,1,2,2,0,4,0,2,0,6,1,1,2,2,7,5,7,6,7,7,7,10,10,8,8,10,8,8,4</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>search</div>
-<div class='span2' style='height: 30px'><span class='spark'>2,0,3,6,2,0,0,0,0,1,0,2,1,1,1,1,1,0,6,1,4,1,4,5,1,6,2,9,7,9,8,5,12,16,6,18,9,7,4</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>large</div>
-<div class='span2' style='height: 30px'><span class='spark'>10,1,6,2,2,3,3,1,1,2,0,2,1,5,0,0,2,0,2,3,7,5,2,5,2,1,5,3,5,6,5,3,4,6,4,8,9,7,5</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>streams</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,1,8,13,20,12,9,11,8,10,12,3,6,4</span></div></div></div></div>
-
-
-  <h2>What's not?</h2>
-    <p>
-    On the long time scale, <b>database, models and relational</b> as keywords are dying!  
-    <p>We can see that <b>object oriented, rules, activity</b> came 
-    and went.  We always talk about <b>XML</b> being dead, at it sure looks that way on paper, along with <b>streams, services, and caching</b>.
-    </p>
-    <div class="row"><div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>database</div>
-<div class='span2' style='height: 30px'><span class='spark'>29,8,36,39,24,26,34,19,25,26,17,24,23,13,22,18,27,24,24,27,32,27,16,20,12,20,15,19,17,30,25,16,16,19,19,27,18,21,7</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>systems</div>
-<div class='span2' style='height: 30px'><span class='spark'>9,3,17,15,13,12,19,8,12,11,5,13,10,5,3,6,10,8,6,13,17,14,4,3,8,7,12,14,10,20,18,11,15,17,8,8,16,7,4</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>model</div>
-<div class='span2' style='height: 30px'><span class='spark'>9,4,6,7,4,3,9,4,9,3,7,4,3,3,4,6,10,11,3,5,4,4,0,1,2,2,1,2,4,2,2,7,8,2,4,3,4,1,1</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>object</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,1,1,2,3,3,5,2,8,7,8,10,11,12,7,6,6,5,3,5,1,1,0,3,0,1,2,1,5,5,0,3,0</span></div></div></div><div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>oriented</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,2,0,0,0,0,1,0,0,2,1,2,1,2,3,7,6,4,7,4,2,2,1,2,0,0,1,0,0,2,0,0,2,4,2,2,0,0</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>management</div>
-<div class='span2' style='height: 30px'><span class='spark'>6,2,7,7,6,5,3,4,2,6,2,10,7,2,5,3,7,7,7,4,8,8,3,3,3,5,8,6,8,15,8,5,9,8,6,3,8,2,1</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>cached</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,3,0,2,4,1,8,4,4,3,4,1,0,2,1,1,0,2,1</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>dimensional</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,1,0,0,1,4,6,4,4,6,2,2,4,5,2,3,5,4,2,1,0,0,0</span></div></div></div><div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>server</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,2,1,2,2,2,4,4,3,2,0,2,1,2,0,0,1,2,2,3,0,0,0</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>data</div>
-<div class='span2' style='height: 30px'><span class='spark'>39,13,51,48,29,34,46,25,32,33,24,32,27,15,25,29,37,33,33,37,41,41,37,39,29,42,45,53,65,72,50,45,61,66,51,61,60,42,30</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>xml</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,15,12,22,18,21,16,10,12,4,7,2,2,0</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>streams</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,1,8,13,20,12,9,11,8,10,12,3,6,4</span></div></div></div></div>
-
-	<h1>The New Hotness</h1>
-	
-    <p>
-        Let's now look at keywords that have burst into the scene in
-        since I started graduate school (2007). 
-        These keywords are selected by computing
-        the ratio of "the average number of times a keyword is used
-        since 2010" by "the average before 2010".  
-    </p>
-
-    <p> 
-    <b>Mapreduce, scaling, and the cloud</b> are still at the
-    peak of the gartner hype cycle, and there are so many systems that
-    it's hard to even compare them.   
-    <p>
-    Web data is inherently <b>uncertain</b> so we need <b>probabilitc</b>
-    techniques to <b>search for similar</b> data.
-
-    <p> Finally it's nice to see that <b>crowdsourcing</b>
-    is <i>still</i> trending upwards.
-    Perhaps work with a more human and <b>social</b> 
-    angle is ready for the lime light.
-
-    </p>
-
-    <div class="row"><div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>graphs</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,1,0,0,1,0,1,0,0,1,0,0,0,0,3,0,0,0,0,0,1,0,1,0,0,3,1,4,7,8,12,15,14,9</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>mapreduce</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,6,10,9,1</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>crowd</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,5</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>social</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,2,4,1,7,3,4</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>uncertain</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,6,1,8,7,5,2</span></div></div></div><div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>awareness</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,3,2,2,9,4,3,2</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>cloud</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,6,3,4,1</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>match</div>
-<div class='span2' style='height: 30px'><span class='spark'>1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,1,2,1,4,6,4,7,1,5,6,8,6,3</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>web</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,5,9,16,11,14,9,8,4,5,12,17,8,14,7,5</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>probabilistic</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,4,1,1,4,5,3,7,4,7,0</span></div></div></div><div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>scale</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,1,4,2,4,3,3,0,2,3,3,3,8,0,6</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>similarity</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,3,2,1,0,5,1,0,0,0,3,4,5,4,6,5,6,3</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>search</div>
-<div class='span2' style='height: 30px'><span class='spark'>2,0,3,6,2,0,0,0,0,1,0,2,1,1,1,1,1,0,6,1,4,1,4,5,1,6,2,9,7,9,8,5,12,16,6,18,9,7,4</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>scalability</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,2,0,2,1,5,2,1,0,2,2,3,3,6,7,8,4,5,1</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>labeling</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,1,3</span></div></div></div></div>
-
-
-<h1>Top topics by year</h1>
-
-<p>
-	It's good to see that <b>data</b>, <b>query</b> and <b>databases</b> are never far from our minds.
-
-<div style="">
-
-  <table class='topk'>
-	<tr><td class='year' colspan=2>2013</td></tr>
-    <tr><td class='word'>queries</td><td class='count'>24</td></tr><tr><td class='word'>data</td><td class='count'>20</td></tr><tr><td class='word'>graphs</td><td class='count'>9</td></tr><tr><td class='word'>distributed</td><td class='count'>8</td></tr><tr><td class='word'>based</td><td class='count'>7</td></tr><tr><td class='word'>database</td><td class='count'>7</td></tr><tr><td class='word'>efficient</td><td class='count'>7</td></tr><tr><td class='word'>processing</td><td class='count'>6</td></tr><tr><td class='word'>scale</td><td class='count'>6</td></tr><tr><td class='word'>crowd</td><td class='count'>5</td></tr>
-   </table>
-<table class='topk'>
-	<tr><td class='year' colspan=2>2012</td></tr>
-    <tr><td class='word'>queries</td><td class='count'>23</td></tr><tr><td class='word'>database</td><td class='count'>21</td></tr><tr><td class='word'>data</td><td class='count'>16</td></tr><tr><td class='word'>graphs</td><td class='count'>14</td></tr><tr><td class='word'>based</td><td class='count'>12</td></tr><tr><td class='word'>efficient</td><td class='count'>12</td></tr><tr><td class='word'>optimal</td><td class='count'>12</td></tr><tr><td class='word'>mapreduce</td><td class='count'>9</td></tr><tr><td class='word'>index</td><td class='count'>8</td></tr><tr><td class='word'>join</td><td class='count'>8</td></tr>
-   </table>
-<table class='topk'>
-	<tr><td class='year' colspan=2>2011</td></tr>
-    <tr><td class='word'>data</td><td class='count'>39</td></tr><tr><td class='word'>queries</td><td class='count'>29</td></tr><tr><td class='word'>database</td><td class='count'>18</td></tr><tr><td class='word'>systems</td><td class='count'>16</td></tr><tr><td class='word'>based</td><td class='count'>15</td></tr><tr><td class='word'>graphs</td><td class='count'>15</td></tr><tr><td class='word'>efficient</td><td class='count'>14</td></tr><tr><td class='word'>web</td><td class='count'>14</td></tr><tr><td class='word'>mapreduce</td><td class='count'>10</td></tr><tr><td class='word'>processing</td><td class='count'>10</td></tr>
-   </table>
-<table class='topk'>
-	<tr><td class='year' colspan=2>2010</td></tr>
-    <tr><td class='word'>queries</td><td class='count'>32</td></tr><tr><td class='word'>data</td><td class='count'>29</td></tr><tr><td class='word'>database</td><td class='count'>27</td></tr><tr><td class='word'>search</td><td class='count'>17</td></tr><tr><td class='word'>processing</td><td class='count'>15</td></tr><tr><td class='word'>based</td><td class='count'>13</td></tr><tr><td class='word'>graphs</td><td class='count'>12</td></tr><tr><td class='word'>streams</td><td class='count'>12</td></tr><tr><td class='word'>efficient</td><td class='count'>11</td></tr><tr><td class='word'>index</td><td class='count'>10</td></tr>
-   </table>
-	<div style='clear:both'><table class='topk'>
-	<tr><td class='year' colspan=2>2009</td></tr>
-    <tr><td class='word'>data</td><td class='count'>28</td></tr><tr><td class='word'>queries</td><td class='count'>21</td></tr><tr><td class='word'>database</td><td class='count'>19</td></tr><tr><td class='word'>web</td><td class='count'>17</td></tr><tr><td class='word'>efficient</td><td class='count'>13</td></tr><tr><td class='word'>networks</td><td class='count'>11</td></tr><tr><td class='word'>based</td><td class='count'>10</td></tr><tr><td class='word'>streams</td><td class='count'>10</td></tr><tr><td class='word'>graphs</td><td class='count'>8</td></tr><tr><td class='word'>index</td><td class='count'>8</td></tr>
-   </table>
-<table class='topk'>
-	<tr><td class='year' colspan=2>2008</td></tr>
-    <tr><td class='word'>data</td><td class='count'>45</td></tr><tr><td class='word'>queries</td><td class='count'>37</td></tr><tr><td class='word'>database</td><td class='count'>19</td></tr><tr><td class='word'>systems</td><td class='count'>17</td></tr><tr><td class='word'>search</td><td class='count'>16</td></tr><tr><td class='word'>efficient</td><td class='count'>15</td></tr><tr><td class='word'>processing</td><td class='count'>13</td></tr><tr><td class='word'>web</td><td class='count'>12</td></tr><tr><td class='word'>xml</td><td class='count'>12</td></tr><tr><td class='word'>based</td><td class='count'>10</td></tr>
-   </table>
-<table class='topk'>
-	<tr><td class='year' colspan=2>2007</td></tr>
-    <tr><td class='word'>data</td><td class='count'>43</td></tr><tr><td class='word'>queries</td><td class='count'>33</td></tr><tr><td class='word'>database</td><td class='count'>16</td></tr><tr><td class='word'>efficient</td><td class='count'>16</td></tr><tr><td class='word'>systems</td><td class='count'>15</td></tr><tr><td class='word'>processing</td><td class='count'>11</td></tr><tr><td class='word'>streams</td><td class='count'>11</td></tr><tr><td class='word'>index</td><td class='count'>10</td></tr><tr><td class='word'>search</td><td class='count'>10</td></tr><tr><td class='word'>xml</td><td class='count'>10</td></tr>
-   </table>
-<table class='topk'>
-	<tr><td class='year' colspan=2>2006</td></tr>
-    <tr><td class='word'>queries</td><td class='count'>37</td></tr><tr><td class='word'>data</td><td class='count'>26</td></tr><tr><td class='word'>database</td><td class='count'>16</td></tr><tr><td class='word'>xml</td><td class='count'>16</td></tr><tr><td class='word'>efficient</td><td class='count'>15</td></tr><tr><td class='word'>optimal</td><td class='count'>11</td></tr><tr><td class='word'>systems</td><td class='count'>11</td></tr><tr><td class='word'>index</td><td class='count'>10</td></tr><tr><td class='word'>processing</td><td class='count'>10</td></tr><tr><td class='word'>based</td><td class='count'>9</td></tr>
-   </table>
-	<div style='clear:both'>
-	
-</div>
-
-
-<h1>How is Eugene's career looking</h1>
-
-<p>
-The topics I've decided to work on look like a mixed bag.  <b>Provenance or lineage</b>
-seems to be down, but I believe in second chances.  Good to know
-that <b>data analysis and workload driven research</b> 
-is a stable and increasingly topic!
-</p>
-`
-<div style="">
-  <div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>lineage</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,3,2,2,1,1,1,1</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>visual</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,2,1,2,0,0,0,2,0,1,1,0,1,0,1,1,3,2,0,1</span></div></div></div><div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>analysi</div>
-<div class='span2' style='height: 30px'><span class='spark'>3,0,2,3,0,2,2,0,1,2,1,0,1,1,0,1,1,0,2,1,0,4,0,3,0,1,0,2,2,1,0,3,3,4,7,5,5,3,2</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>bigdata</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,2</span></div></div></div><div class='span3'><div class='row trend' style='height: 30px'>
-<div class='span1 word'>crowd</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,5</span></div></div><div class='row trend' style='height: 30px'>
-<div class='span1 word'>workload</div>
-<div class='span2' style='height: 30px'><span class='spark'>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,2,1,0,0,2,0,4,3,4,0,2</span></div></div></div>
-</div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>database</div>
+       <div class='word'>systems</div>
+       <div class='word'>management</div>
+       <div class='word'>relational</div>
+       <div class='word'>model</div>
+       <div class='word'>distributed</div>
+       <div class='word'>integrity</div>
+       <div class='word'>information</div>
+       <div class='word'>transaction</div>
+       <div class='word'>algorithms</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/vldb_0.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>designs</div>
+       <div class='word'>file</div>
+       <div class='word'>abstraction</div>
+       <div class='word'>paper</div>
+       <div class='word'>invited</div>
+       <div class='word'>codasyl</div>
+       <div class='word'>specifications</div>
+       <div class='word'>conceptual</div>
+       <div class='word'>office</div>
+       <div class='word'>theory</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/vldb_9.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>object</div>
+       <div class='word'>oriented</div>
+       <div class='word'>rules</div>
+       <div class='word'>activity</div>
+       <div class='word'>panel</div>
+       <div class='word'>extended</div>
+       <div class='word'>nested</div>
+       <div class='word'>knowledge</div>
+       <div class='word'>disk</div>
+       <div class='word'>production</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/vldb_2.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>parallel</div>
+       <div class='word'>server</div>
+       <div class='word'>heterogeneity</div>
+       <div class='word'>materialization</div>
+       <div class='word'>level</div>
+       <div class='word'>warehousing</div>
+       <div class='word'>associative</div>
+       <div class='word'>load</div>
+       <div class='word'>multidimensional</div>
+       <div class='word'>universal</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/vldb_5.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>service</div>
+       <div class='word'>cached</div>
+       <div class='word'>technology</div>
+       <div class='word'>warehouse</div>
+       <div class='word'>internet</div>
+       <div class='word'>olap</div>
+       <div class='word'>site</div>
+       <div class='word'>business</div>
+       <div class='word'>space</div>
+       <div class='word'>maintenance</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/vldb_8.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>data</div>
+       <div class='word'>queries</div>
+       <div class='word'>efficient</div>
+       <div class='word'>web</div>
+       <div class='word'>based</div>
+       <div class='word'>search</div>
+       <div class='word'>processing</div>
+       <div class='word'>optimal</div>
+       <div class='word'>index</div>
+       <div class='word'>large</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/vldb_6.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>xml</div>
+       <div class='word'>streams</div>
+       <div class='word'>engineering</div>
+       <div class='word'>xquery</div>
+       <div class='word'>peer</div>
+       <div class='word'>cube</div>
+       <div class='word'>automatic</div>
+       <div class='word'>secure</div>
+       <div class='word'>processor</div>
+       <div class='word'>statistical</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/vldb_3.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>extracting</div>
+       <div class='word'>exploration</div>
+       <div class='word'>dependencies</div>
+       <div class='word'>anonymity</div>
+       <div class='word'>oracle</div>
+       <div class='word'>monitoring</div>
+       <div class='word'>platforms</div>
+       <div class='word'>skyline</div>
+       <div class='word'>text</div>
+       <div class='word'>sensor</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/vldb_1.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>graphs</div>
+       <div class='word'>mapreduce</div>
+       <div class='word'>uncertain</div>
+       <div class='word'>probabilistic</div>
+       <div class='word'>awareness</div>
+       <div class='word'>cloud</div>
+       <div class='word'>constraints</div>
+       <div class='word'>entity</div>
+       <div class='word'>online</div>
+       <div class='word'>workloads</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/vldb_4.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>social</div>
+       <div class='word'>analytic</div>
+       <div class='word'>partitioning</div>
+       <div class='word'>differential</div>
+       <div class='word'>correlation</div>
+       <div class='word'>robustness</div>
+       <div class='word'>flash</div>
+       <div class='word'>mechanism</div>
+       <div class='word'>hardware</div>
+       <div class='word'>hybrid</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/vldb_7-1.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>scale</div>
+       <div class='word'>crowd</div>
+       <div class='word'>labeling</div>
+       <div class='word'>points</div>
+       <div class='word'>frequent</div>
+       <div class='word'>discovering</div>
+       <div class='word'>rdf</div>
+       <div class='word'>comparison</div>
+       <div class='word'>gpus</div>
+       <div class='word'>diversification</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/vldb_7-0.png'/>
+    </div>
+  </div>
+  
 
 
 
