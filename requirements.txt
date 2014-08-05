@@ -1,0 +1,5 @@
+click
+prettyplotlib
+scikit-learn
+jinja2
+numpy

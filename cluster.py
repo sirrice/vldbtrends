@@ -39,13 +39,13 @@ def cluster_and_render(conf, dbname, outname="./text.html", nclusters=8):
         smooth.append(np.mean(counts[i:i+3]))
       ret.append([w] + smooth)
     return np.array(ret)
-    
+
 
   vects = vectors()
   clusterer = KMeans(nclusters, n_init=30, init='k-means++')
   data = vects[:,1:].astype(float)
   data = np.array([l / max(l) for l in data ])
-  clusterer.fit(data)
+  clusterer.fit(data) # words x year
   labels = clusterer.labels_
   xs = np.array(range(minyear, maxyear+1))
 
@@ -102,7 +102,7 @@ def cluster_and_render(conf, dbname, outname="./text.html", nclusters=8):
         idxs = clusterer.labels_ == newlabel
         subcluster = cluster[idxs]
         add_content(subcluster, content, "%s-%s" % (label, newlabel))
-          
+
       continue
 
 
@@ -120,4 +120,4 @@ def cluster_and_render(conf, dbname, outname="./text.html", nclusters=8):
 
 if __name__ == '__main__':
 
-  cluster_and_render('sigmod', 'sigmodstats.db', './text.html')
+  cluster_and_render('sigmod', 'stats.db', './text.html')
