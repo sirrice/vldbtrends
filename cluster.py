@@ -120,4 +120,5 @@ def cluster_and_render(conf, dbname, outname="./text.html", nclusters=8):
 
 if __name__ == '__main__':
 
-  cluster_and_render('sigmod', 'stats.db', './text.html')
+  cluster_and_render('tap', 'stats.db', './tap.html')
+  #cluster_and_render('sigmod', 'stats.db', './text.html')

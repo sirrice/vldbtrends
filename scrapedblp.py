@@ -41,5 +41,7 @@ class Scraper(object):
 
 if __name__ == '__main__':
   scraper = Scraper("chi", "http://www.informatik.uni-trier.de/~ley/db/conf/chi/chi%s.html", './data/')
-  for year in range(2000, 2014):
+  scraper = Scraper("tap", "http://dblp.uni-trier.de/db/journals/tap/tap%s.html", './data/')
+  #for year in range(2000, 2014):
+  for year in range(1, 14):
     scraper(year)
