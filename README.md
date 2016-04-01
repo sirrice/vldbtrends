@@ -9,7 +9,7 @@ Trends in VLDB title keywords
 
 Depends on
 
-    pip install click
+    pip install click pygg wuutils
 
 
 There are three steps:
