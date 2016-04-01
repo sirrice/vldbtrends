@@ -1,13 +1,25 @@
 vldbtrends
 ==========
 
-Depends on
-
-    pip install click
-
 Trends in VLDB title keywords
 
 <a href="http://sirrice.github.io/vldbtrends/">See it live here</a>
 
 
-    python runall.py
+
+Depends on
+
+    pip install click
+
+
+There are three steps:
+
+    # scrape titles from DBLP pages
+    python scrapedblp.py --help
+
+    # turn titles into word counts
+    python parse.py --help
+
+    # turn word counts into HTML pages with pictures
+    python cluster.py  --help
+
