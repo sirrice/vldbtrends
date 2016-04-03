@@ -3,6 +3,7 @@ import sqlite3
 import os
 import requests
 import pyquery
+from parse import put_in_sqlite
 
 class Scraper(object):
   def __init__(self, conf, url_fmt, outdir="./"):
@@ -12,6 +13,9 @@ class Scraper(object):
     self.db = sqlite3.connect("./words.db")
     try:
       self.db.execute("create table titles(id int primary key, year int, conf int, title text)")
+      self.db.execute("create table counts (conf, year int, word text, c int)")
+      self.db.execute("create index c_y on counts(conf, year)")
+      self.db.execute("create index c_w on counts(conf, word)")
     except Exception as e:
       print e
       pass
@@ -86,6 +90,8 @@ Some common URLs
     else:
       scraper(startyear+idx, suffix)
 
+  print "parsing titles and computing counts for %s" % name
+  put_in_sqlite(scraper.db, name)
   scraper.close()
 
 

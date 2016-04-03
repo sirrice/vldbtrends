@@ -11,6 +11,9 @@ canonicalize = Canonicalizer()
 re_bad = re.compile('[^\w\'\s]')
 re_db = re.compile('data\s*base')
 re_bd = re.compile('big\s*data')
+bad_words = set([
+  'front', 'matter', 'invited', 'edit'
+])
 
 def parse(db, conf, stemtoword):
     cur = db.execute("select distinct year from titles where conf = ?", (conf,))
@@ -22,7 +25,7 @@ def parse(db, conf, stemtoword):
         title = re_bad.sub(' ', title.lower())
         title = re_db.sub('database', title)
         title = re_bd.sub('bigdata', title)
-        if 'front' in title and 'matter' in title and 'edit' in title:
+        if any([badword in title for badword in bad_words]):
           continue
         uniquetitles.add(title)
 
@@ -39,6 +42,9 @@ def parse(db, conf, stemtoword):
       yield year, counter
 
 def put_in_sqlite(db, conf):
+  db.execute("delete from counts where conf = ?", (conf,))
+
+
   stemtoword = {}
   ycounters = {}
   gcounter = Counter()
