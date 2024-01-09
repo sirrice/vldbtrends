@@ -9,11 +9,18 @@ from collections import Counter, defaultdict
 canonicalize = Canonicalizer()
 
 re_bad = re.compile('[^\w\'\s]')
-re_db = re.compile('data\s*base')
-re_bd = re.compile('big\s*data')
-bad_words = set([
-  'front', 'matter', 'invited', 'edit'
-])
+res = [
+    (re.compile('data\s*base'), 'database'),
+    (re.compile('big\s*data'), 'bigdata'),
+    (re.compile('top\s*-?\s*k'), 'topk')
+  ]
+bad_words = [
+    [ 'front', 'matter', ':'], 
+    ['invited'], 
+    ['edit', ':'],
+    ['officers'],
+    ['letter', 'chair']
+]
 
 def parse(db, conf, stemtoword):
     cur = db.execute("select distinct year from titles where conf = ?", (conf,))
@@ -22,12 +29,20 @@ def parse(db, conf, stemtoword):
       uniquetitles = set()
       ccur = db.execute("select title from titles where conf = ? and year = ?", (conf, year))
       for title, in ccur:
-        title = re_bad.sub(' ', title.lower())
-        title = re_db.sub('database', title)
-        title = re_bd.sub('bigdata', title)
-        if any([badword in title for badword in bad_words]):
+        try:
+          if type(title) != str:
+            title = title.decode('utf-8')
+          title = re_bad.sub(' ', title.lower())
+          for pattern, replacement in res:
+            title = pattern.sub(replacement, title)
+          if any([all(w in title for w in words) for words in bad_words]):
+            print("skpping", title)
+            continue
+          uniquetitles.add(title)
+        except Exception as e:
+          print(e)
+          print("bad title:", title)
           continue
-        uniquetitles.add(title)
 
 
       for title in uniquetitles:
@@ -38,7 +53,7 @@ def parse(db, conf, stemtoword):
           if cw:
             counter.update([cw])
 
-      print year, len(counter)
+      print(year, len(counter))
       yield year, counter
 
 def put_in_sqlite(db, conf):
@@ -52,17 +67,15 @@ def put_in_sqlite(db, conf):
     gcounter.update(counter)
     ycounters[year] = counter
 
-  for k in gcounter.keys():
-    v = gcounter[k]
-
-    if v <= 1:
+  for k in list(gcounter.keys()):
+    if gcounter[k] <= 1:
       continue
 
     if k not in stemtoword:
-      print "skipping", k
+      print("skipping", k)
       continue
   
-    for year, counter in ycounters.items():
+    for year, counter in list(ycounters.items()):
       db.execute("insert into counts values(?, ?, ?, ?)", 
           (conf, year, stemtoword[k], counter.get(k, 0)))
     db.commit()
@@ -77,7 +90,7 @@ def main(dbname, conf):
     db.execute("create index c_y on counts(conf, year)")
     db.execute("create index c_w on counts(conf, word)")
   except Exception as e:
-    print "you are probably overwriting the database"
+    print("you are probably overwriting the database")
     pass
 
   put_in_sqlite(db, conf)

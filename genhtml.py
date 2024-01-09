@@ -17,9 +17,9 @@ class MyTrendDown(object):
       avg = max(self.buffer)
       diffs = []
       smooths = []
-      for i in xrange(len(self.buffer)-4):
+      for i in range(len(self.buffer)-4):
         smooths.append(sum(self.buffer[i:i+4]) / 4.)
-      for i in xrange(len(smooths)-1):
+      for i in range(len(smooths)-1):
         diffs.append(smooths[i] - smooths[i+1])
       avgdiff = sum(diffs) / float(len(diffs))
       return avg * avgdiff;
@@ -36,7 +36,7 @@ class MyTrendUp(MyTrendDown):
         return -1
       avg = sum(self.buffer) / float(len(self.buffer))
       diffs = []
-      for i in xrange(len(self.buffer)-1):
+      for i in range(len(self.buffer)-1):
         diffs.append(self.buffer[i+1] - self.buffer[i])
       avgdiff = sum(diffs) / float(len(diffs))
       return avg * avgdiff;
@@ -83,7 +83,7 @@ def consistent_top():
       best.intersection_update(set(words))
     else:
       best = set(words)
-  print best
+  print(best)
 
 def best_ratio(year, exclude_words=[], limit=4):
   q = """select counts.word,
@@ -196,7 +196,7 @@ html4 = render_words(mywords, 4)
 
 template = file('template.html', 'r').read()
 
-print template % (stable, hot, cold, html2, html3, html4)
+print(template % (stable, hot, cold, html2, html3, html4))
 
 db.close()
 

@@ -7,7 +7,10 @@ class Canonicalizer(object):
   def __init__(self):
     self.stemmer = nltk.stem.porter.PorterStemmer()
     self.stop = set(stopwords.words('english'))
-    self.stop.update(['use', 'using', 'used'])
+    self.stop.update(['use', 'using', 'used', 'fast', 'letter'
+                      'towards', 'demonstration', 'demo',
+                      'end', 'panel', 'data', 'based', 'via'])
+    self.dontstem = set(['transformer'])
 
     def make_syns():
       synonyms = [
@@ -35,12 +38,15 @@ class Canonicalizer(object):
   def word(self, w):
     if w in self.stop: return None
     if len(w) <= 1: return None
-    stemmed = self.stem(w.strip())
+    if w in self.dontstem: 
+      stemmed = w
+    else:
+      stemmed = self.stem(w.strip())
     return self.synonyms.get(stemmed, stemmed)
 
   def __call__(self, words):
     if isinstance(words, list):
-      return filter(bool, map(self.word, words))
+      return list(filter(bool, list(map(self.word, words))))
     else:
       return self.word(words)
 
